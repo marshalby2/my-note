@@ -31,7 +31,7 @@ server:
 ```
 <dependency>
         <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+        <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 ```
 {: id="20201012211614-9w09ays"}
