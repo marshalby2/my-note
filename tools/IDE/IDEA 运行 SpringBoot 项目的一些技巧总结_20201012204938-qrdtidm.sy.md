@@ -10,5 +10,7 @@
 ### 1. 创建一个SpringBoot项目
 {: id="20201012210445-jalvkju"}
 
-创建过程很简单，在IDEA中，依次点击Fiel -> New -> Project 然后进入
+创建过程很简单，在IDEA中，依次点击Fiel -> New -> Project 然后进入下面的界面
 {: id="20201012210507-i7hodkg"}
+
+{: id="20201012210937-i5dnpsa"}
