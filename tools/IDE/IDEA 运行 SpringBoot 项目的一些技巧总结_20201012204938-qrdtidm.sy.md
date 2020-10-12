@@ -36,8 +36,30 @@ server:
 ```
 {: id="20201012211614-9w09ays"}
 
-在启动类中编写如下代码：
+在启动类中增加一些代码：
 {: id="20201012212115-yn02502"}
+
+```
+@SpringBootApplication
+@RestController
+public class SpringbootDemoApplication {
+
+    @Value("${server.port}")
+    String port;
+
+    @RequestMapping("/hello")
+    public String hello() {
+        return "hello, i am from port: " + port;
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootDemoApplication.class, args);
+    }
+
+}
+
+```
+{: id="20201012212143-vwhi989"}
 
 {: id="20201012212124-slghdsx"}
 
