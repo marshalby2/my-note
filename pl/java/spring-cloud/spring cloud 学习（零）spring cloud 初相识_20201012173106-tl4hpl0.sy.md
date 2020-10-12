@@ -7,7 +7,7 @@
 # 为什么要学习spring cloud
 {: id="20201012173842-plk1pv5"}
 
-打开招聘网站，查看招聘Java开发岗位的要求，95%以上都要求掌握spring cloud，从这可以看出，spring cloud已经成为java
+打开招聘网站，查看招聘Java开发岗位的要求，95%以上都要求掌握spring cloud，从这可以看出，spring cloud已经成为Java
 {: id="20201012173906-9lu8gur"}
 
 {: id="20201012174055-oamnh5f"}
