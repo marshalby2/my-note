@@ -16,7 +16,7 @@
 ![springbootdemo.png](assets/20201012210948-b6lzszi-springboot-demo.png)
 {: id="20201012210937-i5dnpsa"}
 
-创建完成后，在配置文件
+创建完成后，在配置文
 {: id="20201012211449-c5aewl3"}
 
 ### 2. 配置多个端口号启动同一个SpringBoot项目
