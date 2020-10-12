@@ -16,5 +16,5 @@
 ![springbootdemo.png](assets/20201012210948-b6lzszi-springboot-demo.png)
 {: id="20201012210937-i5dnpsa"}
 
-### 2. 配置
+### 2. 配置多个
 {: id="20201012210956-83th3dt"}
