@@ -16,8 +16,15 @@
 ![springbootdemo.png](assets/20201012210948-b6lzszi-springboot-demo.png)
 {: id="20201012210937-i5dnpsa"}
 
-创建完成后，在配置文
+创建完成后，在配置文件`application.yml`中增加如下配置
 {: id="20201012211449-c5aewl3"}
+
+```
+server:
+  port: 8080
+
+```
+{: id="20201012211520-g8hn0ko"}
 
 ### 2. 配置多个端口号启动同一个SpringBoot项目
 {: id="20201012210956-83th3dt"}
