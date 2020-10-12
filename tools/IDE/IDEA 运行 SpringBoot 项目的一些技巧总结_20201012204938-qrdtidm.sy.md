@@ -28,6 +28,12 @@ server:
 并且在`pom.xml`中引入`web`依赖
 {: id="20201012211554-8q4uea3"}
 
+```
+<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+```
 {: id="20201012211614-9w09ays"}
 
 ### 2. 配置多个端口号启动同一个SpringBoot项目
