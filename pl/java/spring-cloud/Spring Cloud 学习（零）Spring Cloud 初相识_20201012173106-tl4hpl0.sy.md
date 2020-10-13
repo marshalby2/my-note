@@ -24,7 +24,7 @@
 # 什么是Spring Cloud
 {: id="20201012174614-ro8e96s"}
 
-Spring Cloud 是一个分布式系统开发框架的组合，主要包括配置管理、服务注册与发现、控制总线、负载均衡、断路器、智能路由等。
+Spring Cloud 是一个分布式系统开发框架的，主要包括配置管理、服务注册与发现、控制总线、负载均衡、断路器、智能路由等。
 {: id="20201013091547-ks8hrv7"}
 
 ![Microservices diagram](https://spring.io/images/diagram-microservices-88e01c7d34c688cb49556435c130d352.svg)
