@@ -33,7 +33,7 @@ Spring Cloud 是一个开发分布式系统的工具集，主要包括配置管�
 # Spring Cloud 和 Spring Boot 是什么关系
 {: id="20201012174621-oqvesd4"}
 
-Spring cloud 是基于 Spring Boot 来进行开发的，一个Spring CloudSpring Boot
+Spring cloud 是基于 Spring Boot 来进行开发的，一个Spring Cloud项目，实际上是多个 Spring Boot
 {: id="20201013092425-d5w4f81"}
 
 # Spring Cloud 学习资源
