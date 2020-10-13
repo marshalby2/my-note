@@ -36,6 +36,11 @@ Spring Cloud 是一个开发分布式系统的工具集，主要包括配置管�
 Spring cloud 是基于 Spring Boot 来进行开发的，一个Spring Cloud项目是由多个 Spring Boot 项目组成的。所以要学习 Spring Cloud 的前提是要会使用 Spring Boot。
 {: id="20201013092425-d5w4f81"}
 
+{: id="20201013094006-6vzq30i"}
+
+#
+{: id="20201013094005-6736c57"}
+
 # Spring Cloud 学习资源
 {: id="20201012174638-oke718e"}
 
