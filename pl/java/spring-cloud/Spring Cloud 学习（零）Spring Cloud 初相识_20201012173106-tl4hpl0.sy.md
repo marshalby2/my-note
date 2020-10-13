@@ -24,6 +24,7 @@
 # 什么是Spring Cloud
 {: id="20201012174614-ro8e96s"}
 
+![Microservices diagram](https://spring.io/images/diagram-microservices-88e01c7d34c688cb49556435c130d352.svg)
 {: id="20201013091213-eka6h7l"}
 
 # Spring Cloud 和 Spring Boot 是什么关系
