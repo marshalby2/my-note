@@ -16,7 +16,7 @@
 第二，对新技术感兴趣。
 {: id="20201013085907-d6ytx5x"}
 
-Spring Cloud作为当前最主流的技术
+Spring Cloud作为当前最主流的Java开发技术，有许多
 {: id="20201013085918-38uy7fs"}
 
 # 什么是Spring Cloud
