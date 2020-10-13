@@ -16,7 +16,7 @@
 第二，对新技术感兴趣。
 {: id="20201013085907-d6ytx5x"}
 
-SpringCloud
+Spring Cloud作为当前
 {: id="20201013085918-38uy7fs"}
 
 # 什么是Spring Cloud
