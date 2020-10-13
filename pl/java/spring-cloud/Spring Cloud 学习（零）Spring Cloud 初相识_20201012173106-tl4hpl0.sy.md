@@ -42,7 +42,7 @@ Spring cloud 是基于 Spring Boot 来进行开发的，一个Spring Cloud项目
 网上学习Spring Cloud的资源很多，我主要是参考的有：
 {: id="20201013092841-tdcpwqq"}
 
-1. [spring](https://spring.io/projects/spring-cloud)
+1. [spring-cloud](https://spring.io/projects/spring-cloud)
 2. [](http://www.ityouknow.com/spring-cloud.html)
 3. []()
 {: id="20201013093125-5cwe71y"}
