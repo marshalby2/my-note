@@ -1,7 +1,7 @@
 # 前言
 {: id="20201012173442-eqhdhmr"}
 
-本篇文章是学习Spring Cloud的开篇文章，主要包括学习Spring Cloud的概念，以及Spring Cloud的学习资源整理。
+本篇文章是学习Spring Cloud的开篇文章，主要包括关于Spring Cloud，以及Spring Cloud的学习资源整理。
 {: id="20201012173444-w1uose0"}
 
 # 为什么要学习Spring Cloud
