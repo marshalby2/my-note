@@ -1,7 +1,7 @@
 ### Information Is Bits + Context
 {: id="20201016214742-y4rz57j"}
 
-在计算机的世界里，所有的信息（包括文件、）都是存储为bits的（0或1），
+在计算机的世界里，所有的信息（包括文件、内存）都是存储为bits的（0或1），
 {: id="20201016214823-nbqblgu"}
 
 > The representation of hello.c illustrates a fundamental idea: All information
