@@ -1,7 +1,7 @@
 ### Information Is Bits + Context
 {: id="20201016214742-y4rz57j"}
 
-在计算机的世界里，所有的信息（包括文件、内存中的程序、内存中的数据、网络中传输的数据）都是通过一些列的bits来表示的的（0或1），
+在计算机的世界里，所有的信息（包括文件、内存中的程序、内存中的数据、网络中传输的数据）都是通过一些列的bits来表示的的（0或1），它们唯一的不同，就是我们
 {: id="20201016214823-nbqblgu"}
 
 > The representation of hello.c illustrates a fundamental idea: All information
