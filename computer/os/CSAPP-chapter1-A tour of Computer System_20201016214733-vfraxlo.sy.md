@@ -40,7 +40,9 @@ Running throughout the system is a collection of electrical conduits called buse
 that carry bytes of information back and forth between the components.
 {: id="20201018102649-yck0t1m"}
 
-#####
+##### I/O Devices
 {: id="20201018103004-wpszskp"}
+
+{: id="20201018103017-y9t28pw"}
 
 {: id="20201018102814-3mqrupc"}
