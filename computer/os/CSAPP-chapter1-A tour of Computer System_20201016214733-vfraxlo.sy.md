@@ -28,3 +28,6 @@
 
 ### 1.4 Processors Read and Interpret Instructions Stored in Memory
 {: id="20201018102451-gzcdkkm"}
+
+![1.4.1.png](assets/20201018102556-g3yi5sw-1.4.1.png)
+{: id="20201018102458-tr7xc7h"}
