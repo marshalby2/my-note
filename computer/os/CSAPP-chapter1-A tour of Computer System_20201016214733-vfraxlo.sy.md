@@ -28,7 +28,7 @@
 
 {: id="20201018102558-nlamw6e"}
 
-##### 1.4.1 Hardware Organization of a System
+### 1.4.1 Hardware Organization of a System
 {: id="20201018102810-stdch8c"}
 
 1. Buses Running throughout the system is a collection of electrical conduits called buses
