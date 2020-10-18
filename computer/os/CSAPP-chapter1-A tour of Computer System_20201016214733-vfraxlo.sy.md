@@ -11,7 +11,7 @@
 > {: id="20201016215406-mlqjm9d"}
 {: id="20201016215405-c1pz6n5"}
 
-### 1.2 Programs Are Translated by Other Programs into Different Forms
+## ![1.4.1.png](assets/20201018102544-6ye0cuv-1.4.1.png)1.2 Programs Are Translated by Other Programs into Different Forms
 {: id="20201016215443-pttl6f4"}
 
 ![s1.21.png](assets/20201016220402-ubms4au-s1.2_1.png)
