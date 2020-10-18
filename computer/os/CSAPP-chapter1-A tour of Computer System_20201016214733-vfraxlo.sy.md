@@ -1,4 +1,4 @@
-### Information Is Bits + Context
+### 1.1 Information Is Bits + Context
 {: id="20201016214742-y4rz57j"}
 
 这一节最核心的就是这句话：
@@ -31,3 +31,5 @@
 
 ![1.4.1.png](assets/20201018102556-g3yi5sw-1.4.1.png)
 {: id="20201018102458-tr7xc7h"}
+
+{: id="20201018102558-nlamw6e"}
