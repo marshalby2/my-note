@@ -30,3 +30,6 @@
 
 ##### 1.4.1 Hardware Organization of a System
 {: id="20201018102649-yck0t1m"}
+
+- Buses
+{: id="20201018102655-5upehbl"}
