@@ -28,5 +28,5 @@
 
 {: id="20201018102558-nlamw6e"}
 
-1.4.1 Hardware Organization of a System
+##### 1.4.1 Hardware Organization of a System
 {: id="20201018102649-yck0t1m"}
