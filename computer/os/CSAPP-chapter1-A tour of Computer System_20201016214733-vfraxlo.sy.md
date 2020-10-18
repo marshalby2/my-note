@@ -17,7 +17,7 @@
 ![s1.21.png](assets/20201016220402-ubms4au-s1.2_1.png)
 {: id="20201016215105-080hjj7"}
 
-### 1.3 It Pays to Understand How Compilation Systems Work
+# 1.3 It Pays to Understand How Compilation Systems Work
 {: id="20201016220440-uuvl19z"}
 
 ### 1.4 Processors Read and Interpret Instructions Stored in Memory
