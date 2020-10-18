@@ -20,7 +20,7 @@
 # 1.3 It Pays to Understand How Compilation Systems Work
 {: id="20201016220440-uuvl19z"}
 
-### 1.4 Processors Read and Interpret Instructions Stored in Memory
+# 1.4 Processors Read and Interpret Instructions Stored in Memory
 {: id="20201018102451-gzcdkkm"}
 
 ![1.4.1.png](assets/20201018102556-g3yi5sw-1.4.1.png)
