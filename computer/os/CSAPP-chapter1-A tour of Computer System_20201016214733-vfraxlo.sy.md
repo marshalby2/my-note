@@ -29,8 +29,10 @@
 {: id="20201018102558-nlamw6e"}
 
 ##### 1.4.1 Hardware Organization of a System
-{: id="20201018102649-yck0t1m"}
+{: id="20201018102810-stdch8c"}
 
-- Buses : Running throughout the system is a collection of electrical conduits called buses
-  that carry bytes of information back and forth between the components.
-{: id="20201018102655-5upehbl"}
+1. Buses : Running throughout the system is a collection of electrical conduits called buses
+{: id="20201018102810-oc5pjm7"}
+
+that carry bytes of information back and forth between the components.
+{: id="20201018102649-yck0t1m"}
