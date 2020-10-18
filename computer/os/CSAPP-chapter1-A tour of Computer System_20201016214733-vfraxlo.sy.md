@@ -1,4 +1,4 @@
-### 1.1 Information Is Bits + Context
+# 1.1 Information Is Bits + Context
 {: id="20201016214742-y4rz57j"}
 
 > The representation of hello.c illustrates a fundamental idea: All information
