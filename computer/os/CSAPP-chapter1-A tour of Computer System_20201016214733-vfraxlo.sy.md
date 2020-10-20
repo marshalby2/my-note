@@ -178,3 +178,14 @@ hello process. After hello terminates, the operating system restores the context
 of the shell process and passes control back to it, where it waits for the next
 command-line input.
 {: id="20201020202526-g9zefjr"}
+
+{: id="20201020202749-ut7uycf"}
+
+### 1.7.2 Threads
+{: id="20201020202749-x1cdeyb"}
+
+Although we normally think of a process as having a single control flow, in modern
+systems a process can actually consist of multiple execution units, called threads,
+each running in the context of the process and sharing the same code and global
+data.
+{: id="20201020202759-vjhlfn5"}
