@@ -47,4 +47,9 @@ display for user output, and a disk drive (or simply disk) for long-term storage
 data and programs. Initially, the executable hello program resides on the disk.
 {: id="20201020164245-dybxiqi"}
 
+### Main Memory
 {: id="20201020164320-0hts506"}
+
+The main memory is a temporary storage device that holds both a program and
+the data it manipulates while the processor is executing the program.
+{: id="20201020164350-nryzbnx"}
