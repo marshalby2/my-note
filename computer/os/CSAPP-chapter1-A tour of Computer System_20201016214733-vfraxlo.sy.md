@@ -218,8 +218,5 @@ small set of system calls known as Unix I/O.
 
 {: id="20201020211825-x5neo49"}
 
-# 1.8 Systems Communicate with Other Systems
+# 1.8 Systems Communicate with Other SystemsUsing Networks
 {: id="20201020211828-ocv4mxh"}
-
-Using Networks
-{: id="20201020211826-nobmflj"}
