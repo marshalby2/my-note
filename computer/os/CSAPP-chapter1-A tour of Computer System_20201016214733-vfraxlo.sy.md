@@ -88,4 +88,5 @@ a major goal for system designers is to make these copy operations run as fast a
 possible.
 {: id="20201020165707-gzqovjm"}
 
+![1.6.png](assets/20201020165843-dcj38cv-1.6.png)
 {: id="20201020165838-53mkcnm"}
