@@ -125,4 +125,10 @@ using the fast caches
 # 1.6 Storage Devices Form a Hierarchy
 {: id="20201020195742-1dxoq2y"}
 
+The main idea of a memory hierarchy is that storage at one level serves as a
+cache for storage at the next lower level. Thus, the register file is a cache for the
+L1 cache. Caches L1 and L2 are caches for L2 and L3, respectively. The L3 cache
+is a cache for the main memory, which is a cache for the disk. On some networked
+systems with distributed file systems, the local disk serves as a cache for data stored
+on the disks of other systems.
 {: id="20201020195744-pbjusu5"}
