@@ -210,4 +210,8 @@ memory, which is known as its virtual address space.
 ### 1.7.4 Files
 {: id="20201020211637-58ns3qt"}
 
+A file is a sequence of bytes, nothing more and nothing less. Every I/O device,
+including disks, keyboards, displays, and even networks, is modeled as a file. All
+input and output in the system is performed by reading and writing files, using a
+small set of system calls known as Unix I/O.
 {: id="20201020211655-z56spyk"}
