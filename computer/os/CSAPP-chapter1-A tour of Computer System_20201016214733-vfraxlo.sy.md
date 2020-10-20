@@ -167,3 +167,14 @@ needs in order to run. This state, which is known as the context,
 
 ![1.72.png](assets/20201020202523-34q76b5-1.7_2.png)
 {: id="20201020202517-i6jrczj"}
+
+There are two concurrent processes in our example scenario: the shell process
+and the hello process. Initially, the shell process is running alone, waiting for input
+on the command line. When we ask it to run the hello program, the shell carries
+out our request by invoking a special function known as a system call that passes
+control to the operating system. The operating system saves the shell’s context,
+creates a new hello process and its context, and then passes control to the new
+hello process. After hello terminates, the operating system restores the context
+of the shell process and passes control back to it, where it waits for the next
+command-line input.
+{: id="20201020202526-g9zefjr"}
