@@ -77,4 +77,15 @@ main memory
 # 1.5 Caches Matter
 {: id="20201020165653-l8mtuy9"}
 
+An important lesson from this simple example is that a system spends a lot of
+time moving information from one place to another. The machine instructions in
+the hello program are originally stored on disk. When the program is loaded,
+they are copied to main memory. As the processor runs the program, instructions are copied from main memory into the processor. Similarly, the data string
+hello,world\n, originally on disk, is copied to main memory and then copied
+from main memory to the display device. From a programmer’s perspective, much
+of this copying is overhead that slows down the “real work” of the program. Thus,
+a major goal for system designers is to make these copy operations run as fast as
+possible.
 {: id="20201020165707-gzqovjm"}
+
+{: id="20201020165838-53mkcnm"}
