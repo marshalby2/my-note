@@ -138,3 +138,16 @@ on the disks of other systems.
 
 ![1.71.png](assets/20201020201550-8ovzrqd-1.7_1.png)
 {: id="20201020201249-ah8hqr6"}
+
+{: id="20201020201552-fa1lyen"}
+
+The operating system has two primary purposes: (1) to protect the hardware
+from misuse by runaway applications and (2) to provide applications with simple
+and uniform mechanisms for manipulating complicated and often wildly different
+low-level hardware devices. The operating system achieves both goals via the
+fundamental abstractions shown in Figure 1.11: processes, virtual memory, and
+files. As this figure suggests, files are abstractions for I/O devices, virtual memory
+is an abstraction for both the main memory and disk I/O devices, and processes
+are abstractions for the processor, main memory, and I/O devices. We will discuss
+each in turn.
+{: id="20201020201553-ls7zoxi"}
