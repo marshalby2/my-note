@@ -151,3 +151,6 @@ is an abstraction for both the main memory and disk I/O devices, and processes
 are abstractions for the processor, main memory, and I/O devices. We will discuss
 each in turn.
 {: id="20201020201553-ls7zoxi"}
+
+### 1.7
+{: id="20201020201554-ifa6ys1"}
