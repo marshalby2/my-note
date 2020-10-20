@@ -159,4 +159,6 @@ A process is the operating system’s abstraction for a running program. Multipl
 to have exclusive use of the hardware.
 {: id="20201020201629-lsi5lk0"}
 
+The operating system keeps track of all the state information that the process
+needs in order to run. This state, which is known as the context,
 {: id="20201020201952-hi5qquf"}
