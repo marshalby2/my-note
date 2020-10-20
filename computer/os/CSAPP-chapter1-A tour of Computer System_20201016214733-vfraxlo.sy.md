@@ -133,7 +133,7 @@ systems with distributed file systems, the local disk serves as a cache for data
 on the disks of other systems.
 {: id="20201020195744-pbjusu5"}
 
-# 1.7 1.7 The Operating System Manages the Hardware
+# 1.7 The Operating System Manages the Hardware
 {: id="20201020201244-cwpg3m8"}
 
 ![1.71.png](assets/20201020201550-8ovzrqd-1.7_1.png)
