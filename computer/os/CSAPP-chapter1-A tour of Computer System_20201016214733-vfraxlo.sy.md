@@ -56,3 +56,9 @@ the data it manipulates while the processor is executing the program.
 
 ### Processor
 {: id="20201020164352-omgibae"}
+
+The central processing unit (CPU), or simply processor, is the engine that interprets (or executes) instructions stored in main memory. At its core is a word-size
+storage device (or register) called the program counter (PC). At any point in time,
+the PC points at (contains the address of) some machine-language instruction in
+main memory
+{: id="20201020164430-2hu1dgw"}
