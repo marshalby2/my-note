@@ -207,4 +207,5 @@ memory, which is known as its virtual address space.
 
 {: id="20201020203216-p61xxcg"}
 
+![1.73.png](assets/20201020202938-emrnb81-1.7_3.png)
 {: id="20201020211637-58ns3qt"}
