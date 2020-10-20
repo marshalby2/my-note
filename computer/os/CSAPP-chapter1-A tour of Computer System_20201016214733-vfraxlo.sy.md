@@ -1,5 +1,6 @@
 {: id="20201020165933-75w0gf0"}
 
+![1.1.png](assets/20201020170008-l68sat3-1.1.png)
 {: id="20201020165935-5qdsn0e"}
 
 # 1.1 Information Is Bits + Context
