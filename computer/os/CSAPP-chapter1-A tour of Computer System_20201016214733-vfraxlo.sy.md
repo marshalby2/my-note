@@ -14,6 +14,12 @@
 # 1.2 Programs Are Translated by Other Programs into Different Forms
 {: id="20201016215443-pttl6f4"}
 
+{: id="20201020165857-y3in9ic"}
+
+{: id="20201020165856-v4c385l"}
+
+{: id="20201020165856-acbt20m"}
+
 ![s1.21.png](assets/20201016220402-ubms4au-s1.2_1.png)
 {: id="20201016215105-080hjj7"}
 
