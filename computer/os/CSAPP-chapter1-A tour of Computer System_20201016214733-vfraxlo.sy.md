@@ -26,8 +26,6 @@
 ![1.4.1.png](assets/20201018102556-g3yi5sw-1.4.1.png)
 {: id="20201018102458-tr7xc7h"}
 
-{: id="20201018102558-nlamw6e"}
-
 ### 1.4.1 Hardware Organization of a System
 {: id="20201018102810-stdch8c"}
 
@@ -43,6 +41,10 @@ that carry bytes of information back and forth between the components.
 ##### I/O Devices
 {: id="20201018103004-wpszskp"}
 
-{: id="20201018103017-y9t28pw"}
+Input/output (I/O) devices are the system’s connection to the external world. Our
+example system has four I/O devices: a keyboard and mouse for user input, a
+display for user output, and a disk drive (or simply disk) for long-term storage of
+data and programs. Initially, the executable hello program resides on the disk.
+{: id="20201020164245-dybxiqi"}
 
-{: id="20201018102814-3mqrupc"}
+{: id="20201020164320-0hts506"}
