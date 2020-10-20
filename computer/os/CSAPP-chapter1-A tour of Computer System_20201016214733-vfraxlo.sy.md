@@ -108,6 +108,13 @@ possible.
 
 {: id="20201020195454-b4odv00"}
 
+The idea behind caching is that a system can get the effect of both
+a very large memory and a very fast one by exploiting locality, the tendency for
+programs to access data and code in localized regions. By setting up caches to hold
+data that are likely to be accessed often, we can perform most memory operations
+using the fast caches
+{: id="20201020195645-pp3g7f7"}
+
 {: id="20201020195509-7ohbgxi"}
 
 ![1.9.png](assets/20201020195501-wxpjq9v-1.9.png)
