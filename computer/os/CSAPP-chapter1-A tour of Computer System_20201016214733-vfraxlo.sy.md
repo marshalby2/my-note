@@ -152,5 +152,5 @@ are abstractions for the processor, main memory, and I/O devices. We will discus
 each in turn.
 {: id="20201020201553-ls7zoxi"}
 
-### 1.7.1
+### 1.7.1 Processes
 {: id="20201020201554-ifa6ys1"}
