@@ -119,3 +119,10 @@ using the fast caches
 
 ![1.9.png](assets/20201020195501-wxpjq9v-1.9.png)
 {: id="20201020195455-46l5htu"}
+
+{: id="20201020195741-98fgn43"}
+
+# 1.6 Storage Devices Form a Hierarchy
+{: id="20201020195742-1dxoq2y"}
+
+{: id="20201020195744-pbjusu5"}
