@@ -69,4 +69,5 @@ main memory
 ### 1.4.2 Running the hello Program
 {: id="20201020165449-iai51so"}
 
+![1.5.png](assets/20201020165533-d2btsf3-1.5.png)
 {: id="20201020165452-hx4zcji"}
