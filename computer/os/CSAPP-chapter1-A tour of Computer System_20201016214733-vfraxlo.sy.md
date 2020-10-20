@@ -136,4 +136,5 @@ on the disks of other systems.
 # 1.7 1.7 The Operating System Manages the Hardware
 {: id="20201020201244-cwpg3m8"}
 
+![1.71.png](assets/20201020201550-8ovzrqd-1.7_1.png)
 {: id="20201020201249-ah8hqr6"}
