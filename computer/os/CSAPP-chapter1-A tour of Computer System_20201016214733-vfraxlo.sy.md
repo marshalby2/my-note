@@ -57,7 +57,7 @@ chips. Logically, memory is organized as a linear array of bytes, each with its 
 unique address (array index) starting at zero.
 {: id="20201020164350-nryzbnx"}
 
-### Processor
+##### Processor
 {: id="20201020164352-omgibae"}
 
 The central processing unit (CPU), or simply processor, is the engine that interprets (or executes) instructions stored in main memory. At its core is a word-size
