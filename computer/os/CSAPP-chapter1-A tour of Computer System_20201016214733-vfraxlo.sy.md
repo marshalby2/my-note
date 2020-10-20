@@ -1,3 +1,7 @@
+{: id="20201020165933-75w0gf0"}
+
+{: id="20201020165935-5qdsn0e"}
+
 # 1.1 Information Is Bits + Context
 {: id="20201016214742-y4rz57j"}
 
