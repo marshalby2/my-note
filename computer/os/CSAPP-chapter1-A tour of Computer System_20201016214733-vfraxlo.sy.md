@@ -74,5 +74,7 @@ main memory
 
 {: id="20201020165652-n13j88s"}
 
-# 1.5 Caches Master
+# 1.5 Caches Matter
 {: id="20201020165653-l8mtuy9"}
+
+{: id="20201020165707-gzqovjm"}
