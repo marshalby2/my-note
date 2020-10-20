@@ -65,3 +65,8 @@ storage device (or register) called the program counter (PC). At any point in ti
 the PC points at (contains the address of) some machine-language instruction in
 main memory
 {: id="20201020164430-2hu1dgw"}
+
+### 1.4.2 Running the hello Program
+{: id="20201020165449-iai51so"}
+
+{: id="20201020165452-hx4zcji"}
