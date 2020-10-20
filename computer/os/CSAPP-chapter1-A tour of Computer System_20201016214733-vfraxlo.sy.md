@@ -162,3 +162,7 @@ to have exclusive use of the hardware.
 The operating system keeps track of all the state information that the process
 needs in order to run. This state, which is known as the context,
 {: id="20201020201952-hi5qquf"}
+
+{: id="20201020202517-q9owgxl"}
+
+{: id="20201020202517-i6jrczj"}
