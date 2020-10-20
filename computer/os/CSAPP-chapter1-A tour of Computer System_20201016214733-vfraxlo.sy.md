@@ -190,7 +190,6 @@ each running in the context of the process and sharing the same code and global
 data.
 {: id="20201020202759-vjhlfn5"}
 
-![1.73.png](assets/20201020202938-emrnb81-1.7_3.png)
 {: id="20201020202932-yubp6f6"}
 
 {: id="20201020203029-fo7tbvm"}
@@ -202,3 +201,6 @@ Virtual memory is an abstraction that provides each process with the illusion th
 has exclusive use of the main memory. Each process has the same uniform view of
 memory, which is known as its virtual address space.
 {: id="20201020203033-das6wt8"}
+
+![1.73.png](assets/20201020202938-emrnb81-1.7_3.png)
+{: id="20201020203141-995xs7s"}
