@@ -51,7 +51,10 @@ data and programs. Initially, the executable hello program resides on the disk.
 {: id="20201020164320-0hts506"}
 
 The main memory is a temporary storage device that holds both a program and
-the data it manipulates while the processor is executing the program.
+the data it manipulates while the processor is executing the program.Physically,
+main memory consists of a collection of dynamic random access memory (DRAM)
+chips. Logically, memory is organized as a linear array of bytes, each with its own
+unique address (array index) starting at zero.
 {: id="20201020164350-nryzbnx"}
 
 ### Processor
