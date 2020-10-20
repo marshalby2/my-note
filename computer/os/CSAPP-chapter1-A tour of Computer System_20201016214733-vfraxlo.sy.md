@@ -132,3 +132,8 @@ is a cache for the main memory, which is a cache for the disk. On some networked
 systems with distributed file systems, the local disk serves as a cache for data stored
 on the disks of other systems.
 {: id="20201020195744-pbjusu5"}
+
+# 1.7 1.7 The Operating System Manages the Hardware
+{: id="20201020201244-cwpg3m8"}
+
+{: id="20201020201249-ah8hqr6"}
