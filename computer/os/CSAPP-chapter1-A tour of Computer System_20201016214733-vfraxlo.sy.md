@@ -208,4 +208,7 @@ over a network.
 # 1.9 Important Themes
 {: id="20201021103329-67yd622"}
 
+### 1.9.1 Amdahl’s Law
 {: id="20201021103334-8ahpmxp"}
+
+{: id="20201021103344-m11wc1o"}
