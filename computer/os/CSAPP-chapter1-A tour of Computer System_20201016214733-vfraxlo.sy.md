@@ -1,5 +1,3 @@
-{: id="20201020165933-75w0gf0"}
-
 ![1.1.png](assets/20201020170008-l68sat3-1.1.png)
 {: id="20201020165935-5qdsn0e"}
 
@@ -18,8 +16,6 @@
 
 # 1.2 Programs Are Translated by Other Programs into Different Forms
 {: id="20201016215443-pttl6f4"}
-
-{: id="20201020165856-acbt20m"}
 
 ![s1.21.png](assets/20201016220402-ubms4au-s1.2_1.png)
 {: id="20201016215105-080hjj7"}
@@ -79,8 +75,6 @@ main memory
 ![1.5.png](assets/20201020165533-d2btsf3-1.5.png)
 {: id="20201020165452-hx4zcji"}
 
-{: id="20201020165652-n13j88s"}
-
 # 1.5 Caches Matter
 {: id="20201020165653-l8mtuy9"}
 
@@ -98,15 +92,11 @@ possible.
 ![1.6.png](assets/20201020165843-dcj38cv-1.6.png)
 {: id="20201020165838-53mkcnm"}
 
-{: id="20201020170015-322f7lr"}
-
 ![1.7.png](assets/20201020195445-ilouqlh-1.7.png)
 {: id="20201020195440-b4ryzyq"}
 
 ![1.8.png](assets/20201020195453-q10jjo8-1.8.png)
 {: id="20201020195447-mkwbc85"}
-
-{: id="20201020195454-b4odv00"}
 
 The idea behind caching is that a system can get the effect of both
 a very large memory and a very fast one by exploiting locality, the tendency for
@@ -115,12 +105,8 @@ data that are likely to be accessed often, we can perform most memory operations
 using the fast caches
 {: id="20201020195645-pp3g7f7"}
 
-{: id="20201020195509-7ohbgxi"}
-
 ![1.9.png](assets/20201020195501-wxpjq9v-1.9.png)
 {: id="20201020195455-46l5htu"}
-
-{: id="20201020195741-98fgn43"}
 
 # 1.6 Storage Devices Form a Hierarchy
 {: id="20201020195742-1dxoq2y"}
@@ -138,8 +124,6 @@ on the disks of other systems.
 
 ![1.71.png](assets/20201020201550-8ovzrqd-1.7_1.png)
 {: id="20201020201249-ah8hqr6"}
-
-{: id="20201020201552-fa1lyen"}
 
 The operating system has two primary purposes: (1) to protect the hardware
 from misuse by runaway applications and (2) to provide applications with simple
@@ -163,8 +147,6 @@ The operating system keeps track of all the state information that the process
 needs in order to run. This state, which is known as the context,
 {: id="20201020201952-hi5qquf"}
 
-{: id="20201020202517-q9owgxl"}
-
 ![1.72.png](assets/20201020202523-34q76b5-1.7_2.png)
 {: id="20201020202517-i6jrczj"}
 
@@ -179,8 +161,6 @@ of the shell process and passes control back to it, where it waits for the next
 command-line input.
 {: id="20201020202526-g9zefjr"}
 
-{: id="20201020202749-ut7uycf"}
-
 ### 1.7.2 Threads
 {: id="20201020202749-x1cdeyb"}
 
@@ -189,10 +169,6 @@ systems a process can actually consist of multiple execution units, called threa
 each running in the context of the process and sharing the same code and global
 data.
 {: id="20201020202759-vjhlfn5"}
-
-{: id="20201020202932-yubp6f6"}
-
-{: id="20201020203029-fo7tbvm"}
 
 ### 1.7.3 Virtual Memory
 {: id="20201020203030-5mmugk0"}
@@ -205,8 +181,6 @@ memory, which is known as its virtual address space.
 ![1.73.png](assets/20201020202938-emrnb81-1.7_3.png)
 {: id="20201020203141-995xs7s"}
 
-{: id="20201020203216-p61xxcg"}
-
 ### 1.7.4 Files
 {: id="20201020211637-58ns3qt"}
 
@@ -216,9 +190,12 @@ input and output in the system is performed by reading and writing files, using 
 small set of system calls known as Unix I/O.
 {: id="20201020211655-z56spyk"}
 
-{: id="20201020211825-x5neo49"}
-
 # 1.8 Systems Communicate with Other Systems Using Networks
 {: id="20201020211828-ocv4mxh"}
 
-{: id="20201020211832-8ryhebq"}
+With the advent of global networks such as the Internet, copying information
+from one machine to another has become one of the most important uses of
+computer systems. For example, applications such as email, instant messaging, the
+World Wide Web, FTP, and telnet are all based on the ability to copy information
+over a network.
+{: id="20201021094338-6chay9a"}
