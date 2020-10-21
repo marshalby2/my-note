@@ -211,4 +211,7 @@ over a network.
 ### 1.9.1 Amdahl’s Law
 {: id="20201021103334-8ahpmxp"}
 
+### 1.9.2 Concurrency and Parallelism
 {: id="20201021103344-m11wc1o"}
+
+{: id="20201021103401-8xg8n1k"}
