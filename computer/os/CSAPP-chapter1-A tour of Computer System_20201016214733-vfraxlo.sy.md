@@ -217,4 +217,7 @@ over a network.
 ### 1.9.3 The Importance of Abstractions in Computer Systems
 {: id="20201021103401-8xg8n1k"}
 
+The use of abstractions is one of the most important concepts in computer science
 {: id="20201021104650-7gmjp7f"}
+
+{: id="20201021104708-z4pt1er"}
