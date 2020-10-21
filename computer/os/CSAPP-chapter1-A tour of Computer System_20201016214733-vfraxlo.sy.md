@@ -200,4 +200,5 @@ World Wide Web, FTP, and telnet are all based on the ability to copy information
 over a network.
 {: id="20201021094338-6chay9a"}
 
+![1.14.png](assets/20201021100405-kub3j8t-1.14.png)
 {: id="20201021100326-2ekkmob"}
