@@ -220,4 +220,5 @@ over a network.
 The use of abstractions is one of the most important concepts in computer science
 {: id="20201021104650-7gmjp7f"}
 
+![1.18.png](assets/20201021104731-invqu6k-1.18.png)
 {: id="20201021104708-z4pt1er"}
