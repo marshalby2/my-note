@@ -222,3 +222,11 @@ The use of abstractions is one of the most important concepts in computer scienc
 
 ![1.18.png](assets/20201021104731-invqu6k-1.18.png)
 {: id="20201021104708-z4pt1er"}
+
+On the operating system side, we have introduced three abstractions: files as
+an abstraction of I/O devices, virtual memory as an abstraction of program memory, and processes as an abstraction of a running program. To these abstractions
+we add a new one: the virtual machine, providing an abstraction of the entire
+computer, including the operating system, the processor, and the programs.
+{: id="20201021104732-qdrwho6"}
+
+{: id="20201021104815-55kapxh"}
