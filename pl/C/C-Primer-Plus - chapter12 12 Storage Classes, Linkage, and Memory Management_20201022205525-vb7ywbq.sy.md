@@ -251,6 +251,9 @@ declared.
 create two c source code files parta.c and partb.c
 {: id="20201023095714-2vvoxve"}
 
+parta.c
+{: id="20201023095857-h9kgwg4"}
+
 ```
 // parta.c , compile with partb.c
 #include<stdio.h>
