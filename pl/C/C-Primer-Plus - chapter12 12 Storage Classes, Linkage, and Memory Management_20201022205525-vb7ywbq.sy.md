@@ -231,7 +231,7 @@ file scope, external linkage, and static storage duration. If you add the keywor
 a declaration, you get a variable with static storage duration, file scope, and internal linkage.
 If you declare a variable inside a function and use the keyword static, the variable has static
 storage duration, block scope, and no linkage.
-Memory for a variable with automatic storage duration is allocated when program execution
+**Memory for a variable with automatic storage duration** is allocated when program execution
 enters the block containing the variable declaration and is freed when the block is exited. If
 uninitialized, such a variable has a garbage value. Memory for a variable with static storage
 duration is allocated at compile time and lasts as long as the program runs. If uninitialized,
