@@ -344,7 +344,9 @@ static function can be used only within the defining file
 {: id="20201023100059-nk9ko57"}
 
 ```c
-
+double gamma(double); /* external by default */
+static double beta(int, int);
+extern double delta(double, int);
 ```
 {: id="20201023101615-toftx24"}
 
