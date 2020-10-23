@@ -161,7 +161,9 @@ register int quick;
 ### Static Variables with External Linkage
 {: id="20201023091207-2ogail5"}
 
-If a particular external variable is defined in one source code file and is used in a second source code file, declaring the variable in the second file with extern is mandatory.
+1. If a particular external variable is defined in one source code file and is used in a second source code file, declaring the variable in the second file with extern is mandatory.
+2. Like automatic variables, external variables can be initialized explicitly. Unlike automatic variables, external variables are initialized automatically to zero if you don’t initialize them. This
+   rule applies to elements of an externally defined array, too. Unlike the case for automatic variables, you can use only constant expressions to initialize file scope variables:
 {: id="20201023091206-rumyh7p"}
 
 {: id="20201023091233-cutkrqs"}
