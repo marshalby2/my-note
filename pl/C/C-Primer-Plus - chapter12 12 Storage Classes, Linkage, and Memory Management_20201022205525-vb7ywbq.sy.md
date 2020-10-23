@@ -316,6 +316,22 @@ void accumulate(int k) { // k has block scope, no linkage
 {: id="20201023095917-037qiyl"}
 
 ```shell
+1. compile
+$ gcc parta.c partb.c -o part
+
+2. execute
+$ ./part                 
+Enter a positive integer (0 to quit): 10
+loop cycle: 1
+subtotal: 55; total: 55
+Enter a positive integer (0 to quit): 5
+loop cycle: 2
+subtotal: 15; total: 70
+Enter a positive integer (0 to quit): 2
+loop cycle: 3
+subtotal: 3; total: 73
+Enter a positive integer (0 to quit): 0
+Loop executed 3 times
 
 ```
 {: id="20201023095942-lfcfyqv"}
