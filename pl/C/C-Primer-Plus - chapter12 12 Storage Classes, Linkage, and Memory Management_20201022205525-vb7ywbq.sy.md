@@ -158,7 +158,7 @@ register int quick;
 
 {: id="20201023090725-2ps73tj"}
 
-### Static Variables with Ex
+### Static Variables with External Linkage
 {: id="20201023091207-2ogail5"}
 
 If a particular external
