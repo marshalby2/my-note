@@ -336,4 +336,7 @@ Loop executed 3 times
 ```
 {: id="20201023095942-lfcfyqv"}
 
+# Storage Classes and Functions
 {: id="20201023095938-9r33njz"}
+
+{: id="20201023100059-nk9ko57"}
