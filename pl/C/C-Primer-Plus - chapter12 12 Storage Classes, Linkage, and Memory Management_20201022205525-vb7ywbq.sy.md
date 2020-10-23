@@ -336,7 +336,7 @@ Loop executed 3 times
 ```
 {: id="20201023095942-lfcfyqv"}
 
-# Storage Classes and Functions
+### Storage Classes and Functions
 {: id="20201023095938-9r33njz"}
 
 An external function can be accessed by functions in other files, but a
