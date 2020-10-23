@@ -284,7 +284,7 @@ void report_count() {
 ```
 {: id="20201023095744-ol0i7ig"}
 
-partb.c 
+**partb.c **
 {: id="20201023095849-t92dba2"}
 
 ```
