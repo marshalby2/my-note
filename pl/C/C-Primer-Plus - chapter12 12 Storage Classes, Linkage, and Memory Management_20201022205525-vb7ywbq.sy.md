@@ -161,7 +161,8 @@ register int quick;
 ### Static Variables with External Linkage
 {: id="20201023091207-2ogail5"}
 
-If a particular external
-variable is defined in one source code file and is used in a second source code file, declaring the
+If a particular external variable is defined in one source code file and is used in a second source code file, declaring the
 variable in the second file with extern is mandatory.
 {: id="20201023091206-rumyh7p"}
+
+{: id="20201023091233-cutkrqs"}
