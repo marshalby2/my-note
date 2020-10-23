@@ -252,7 +252,7 @@ create two c source code files parta.c and partb.c
 {: id="20201023095714-2vvoxve"}
 
 ```
-// compile with partb.c
+// parta.c , compile with partb.c
 #include<stdio.h>
 
 void report_count();
@@ -278,6 +278,5 @@ int main() {
 void report_count() {
     printf("Loop executed %d times\n", count);
 }
-
 ```
 {: id="20201023095744-ol0i7ig"}
