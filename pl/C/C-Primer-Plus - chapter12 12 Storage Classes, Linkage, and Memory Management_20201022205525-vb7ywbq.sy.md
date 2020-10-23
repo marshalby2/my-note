@@ -194,6 +194,12 @@ linkage can be used only by functions in the same file
 {: id="20201023092840-w7k55zr"}
 
 ```c
+int traveler = 1; // external linkage
+static int stayhome = 1; // internal linkage
+int main()
+{
+extern int traveler; // use global traveler
+extern int stayhome; // use global stayhome
 
 ```
 {: id="20201023092934-7s3vmz1"}
