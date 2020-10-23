@@ -218,7 +218,9 @@ a program built from multiple translation units, so let’s take a quick look at
 
 {: id="20201023093147-o9qshol"}
 
-Summary: Storage Classes
+# Summary: Storage Classes
+{: id="20201023093631-vgbdenm"}
+
 Automatic variables have block scope, no linking, and automatic storage duration. They are
 local and private to the block (typically a function) in which they are defined. Register variables
 have the same properties as automatic variables, but the compiler may use faster memory or a
