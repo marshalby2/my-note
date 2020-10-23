@@ -225,7 +225,7 @@ a program built from multiple translation units, so let’s take a quick look at
 local and private to the block (typically a function) in which they are defined. Register variables
 have the same properties as automatic variables, but the compiler may use faster memory or a
 register to store them. You can’t take the address of a register variable.
-Variables with static storage duration can have external linkage, internal linkage, or no linkage.
+**Variables with static storage duratio**n can have external linkage, internal linkage, or no linkage.
 When a variable is declared external to any function in a file, it’s an external variable and has
 file scope, external linkage, and static storage duration. If you add the keyword static to such
 a declaration, you get a variable with static storage duration, file scope, and internal linkage.
