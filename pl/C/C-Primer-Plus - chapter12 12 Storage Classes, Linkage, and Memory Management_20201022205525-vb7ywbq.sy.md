@@ -245,7 +245,7 @@ declared.
 
 {: id="20201023095703-iuxam82"}
 
-# Code Example
+### Code Example
 {: id="20201023095707-klokvwp"}
 
 create two c source code files parta.c and partb.c
