@@ -203,3 +203,8 @@ extern int stayhome; // use global stayhome
 
 ```
 {: id="20201023092934-7s3vmz1"}
+
+Both traveler and stayhome are global for this particular translation unit, but only traveler
+can be used by code in other translation units. The two declarations using extern document
+that main() is using the two global variables, but stayhome continues to have internal linkage.
+{: id="20201023092954-mpmmlvc"}
