@@ -339,4 +339,6 @@ Loop executed 3 times
 # Storage Classes and Functions
 {: id="20201023095938-9r33njz"}
 
+An external function can be accessed by functions in other files, but a
+static function can be used only within the defining file
 {: id="20201023100059-nk9ko57"}
