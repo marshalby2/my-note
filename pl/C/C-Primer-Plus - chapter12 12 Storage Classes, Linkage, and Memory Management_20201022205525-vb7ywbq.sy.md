@@ -179,7 +179,9 @@ int x2 = 2 * x; // not ok, x is a variable
 Variables of this storage class have static storage duration, file scope, and internal linkage. You
 create one by defining it outside of any function (just as with an external variable) with the
 storage class specifier static:
-static int svil = 1; // static variable, internal linkage
-int main(void)
-{
+{: id="20201023092835-s6l7ke6"}
+
+```
+
+```
 {: id="20201023092746-gcw8tzj"}
