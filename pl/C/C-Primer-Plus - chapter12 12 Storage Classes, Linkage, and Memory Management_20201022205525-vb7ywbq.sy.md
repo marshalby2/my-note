@@ -215,3 +215,28 @@ that main() is using the two global variables, but stayhome continues to have in
 The difference between internal linkage and external linkage is important only when you have
 a program built from multiple translation units, so let’s take a quick look at that topic.
 {: id="20201023093054-5n7wo68"}
+
+{: id="20201023093147-o9qshol"}
+
+Summary: Storage Classes
+Automatic variables have block scope, no linking, and automatic storage duration. They are
+local and private to the block (typically a function) in which they are defined. Register variables
+have the same properties as automatic variables, but the compiler may use faster memory or a
+register to store them. You can’t take the address of a register variable.
+Variables with static storage duration can have external linkage, internal linkage, or no linkage.
+When a variable is declared external to any function in a file, it’s an external variable and has
+file scope, external linkage, and static storage duration. If you add the keyword static to such
+a declaration, you get a variable with static storage duration, file scope, and internal linkage.
+If you declare a variable inside a function and use the keyword static, the variable has static
+storage duration, block scope, and no linkage.
+Memory for a variable with automatic storage duration is allocated when program execution
+enters the block containing the variable declaration and is freed when the block is exited. If
+uninitialized, such a variable has a garbage value. Memory for a variable with static storage
+duration is allocated at compile time and lasts as long as the program runs. If uninitialized,
+such a variable is set to 0.
+A variable with block scope is local to the block containing the declaration. A variable with file
+scope is known to all functions in a file (or translation unit) following its declaration. If a file
+scope variable has external linkage, it can be used by other translation units in the program.
+If a file scope variable has internal linkage, it can be used just within the file in which it is
+declared.
+{: id="20201023093623-jm7q6ix"}
