@@ -248,5 +248,7 @@ declared.
 # Code Example
 {: id="20201023095707-klokvwp"}
 
-create
+create two c source code files parta.c and partb.c
 {: id="20201023095714-2vvoxve"}
+
+{: id="20201023095744-ol0i7ig"}
