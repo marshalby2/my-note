@@ -192,3 +192,8 @@ The ordinary external variable can
 be used by functions in any file that’s part of the program, but the static variable with internal
 linkage can be used only by functions in the same file
 {: id="20201023092840-w7k55zr"}
+
+```c
+
+```
+{: id="20201023092934-7s3vmz1"}
