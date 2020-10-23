@@ -209,7 +209,7 @@ can be used by code in other translation units. The two declarations using exter
 that main() is using the two global variables, but stayhome continues to have internal linkage.
 {: id="20201023092954-mpmmlvc"}
 
-### Muti
+### Mutiple Files
 {: id="20201023093138-ovwavcr"}
 
 The difference between internal linkage and external linkage is important only when you have
