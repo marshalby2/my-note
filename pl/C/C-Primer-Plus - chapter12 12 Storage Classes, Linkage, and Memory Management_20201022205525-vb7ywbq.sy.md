@@ -242,3 +242,7 @@ scope variable has external linkage, it can be used by other translation units i
 If a file scope variable has internal linkage, it can be used just within the file in which it is
 declared.
 {: id="20201023093623-jm7q6ix"}
+
+{: id="20201023095703-iuxam82"}
+
+{: id="20201023095707-klokvwp"}
