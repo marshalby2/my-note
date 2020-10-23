@@ -160,7 +160,7 @@ register int quick;
 
 {: id="20201023091207-2ogail5"}
 
-f a particular external
+If a particular external
 variable is defined in one source code file and is used in a second source code file, declaring the
 variable in the second file with extern is mandatory.
 {: id="20201023091206-rumyh7p"}
