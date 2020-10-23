@@ -147,7 +147,7 @@ register int quick;
 ```
 {: id="20201022213738-tic48j7"}
 
-### Storage Vartiables
+### Static Vartiables with No
 {: id="20201023090503-gzd76wj"}
 
 Static variables are initialized to zero if you don’t explicitly initialize them to some other value.
