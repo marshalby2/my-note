@@ -181,7 +181,11 @@ create one by defining it outside of any function (just as with an external vari
 storage class specifier static:
 {: id="20201023092835-s6l7ke6"}
 
-```
-
+```c
+static int svil = 1; // static variable, internal linkage
+int main(void)
+{
 ```
 {: id="20201023092746-gcw8tzj"}
+
+{: id="20201023092840-w7k55zr"}
