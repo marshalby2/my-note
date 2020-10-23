@@ -173,5 +173,7 @@ int x2 = 2 * x; // not ok, x is a variable
 ```
 {: id="20201023091233-cutkrqs"}
 
-Static Variables with External Linkage
+### Static Variables with External Linkage
 {: id="20201023092358-k5g7p4s"}
+
+{: id="20201023092746-gcw8tzj"}
