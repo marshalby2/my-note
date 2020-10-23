@@ -312,5 +312,7 @@ void accumulate(int k) { // k has block scope, no linkage
 ```
 {: id="20201023095851-wreo3rp"}
 
-compile parta.c and partb.c
+compile and execute
 {: id="20201023095917-037qiyl"}
+
+{: id="20201023095938-9r33njz"}
