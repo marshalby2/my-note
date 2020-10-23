@@ -165,4 +165,12 @@ register int quick;
 2. Like automatic variables, external variables can be initialized explicitly. Unlike automatic variables, external variables are initialized automatically to zero if you don’t initialize them. This rule applies to elements of an externally defined array, too. Unlike the case for automatic variables, you can use only constant expressions to initialize file scope variables:
 {: id="20201023091206-rumyh7p"}
 
+```c
+int x = 10; // ok, 10 is constant
+int y = 3 + 20; // ok, a constant expression
+size_t z = sizeof(int); // ok, a constant expression
+int x2 = 2 * x; // not ok, x is a variable
+```
 {: id="20201023091233-cutkrqs"}
+
+{: id="20201023092358-k5g7p4s"}
