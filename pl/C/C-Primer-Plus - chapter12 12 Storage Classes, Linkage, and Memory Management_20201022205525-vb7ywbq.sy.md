@@ -155,3 +155,12 @@ register int quick;
 
 2. You can’t use static for function parameters:`int wontwork(static int flu); // not allowed`
 {: id="20201023090620-kbxpyzj"}
+
+{: id="20201023090725-2ps73tj"}
+
+{: id="20201023091207-2ogail5"}
+
+f a particular external
+variable is defined in one source code file and is used in a second source code file, declaring the
+variable in the second file with extern is mandatory.
+{: id="20201023091206-rumyh7p"}
