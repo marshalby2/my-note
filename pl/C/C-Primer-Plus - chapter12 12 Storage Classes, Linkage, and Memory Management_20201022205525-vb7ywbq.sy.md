@@ -360,4 +360,11 @@ class is to create functions that are private to a particular module, thereby av
 # Allocated Memory: malloc() and free()
 {: id="20201023101823-6kwf7ni"}
 
+The storage classes we discussed have one thing in common. After you decide which storage
+class to use, the decisions about scope and storage duration follow automatically. Your choices
+obey the prepackaged memory management rules. There is, however, one more choice, one
+that gives you more flexibility. That choice is using library functions to allocate and manage
+memory.
 {: id="20201023101826-71hoajd"}
+
+{: id="20201023101854-2xkzcox"}
