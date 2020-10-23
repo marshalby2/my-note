@@ -350,5 +350,7 @@ extern double delta(double, int);
 ```
 {: id="20201023101615-toftx24"}
 
-One reason to use the static storage class is to create functions that are private to a particular module, thereby avoiding the possibility of name conflicts.
+The functions gamma() and delta() can be used by functions in other files that are part of the
+program, but beta() cannot. Because this beta() is restricted to one file, you can use a different function having the same name in the other files. One reason to use the static storage
+class is to create functions that are private to a particular module, thereby avoiding the possibility of name conflicts.
 {: id="20201023101543-du5nsym"}
