@@ -342,3 +342,7 @@ Loop executed 3 times
 An external function can be accessed by functions in other files, but a
 static function can be used only within the defining file
 {: id="20201023100059-nk9ko57"}
+
+One reason to use the static storage
+class is to create functions that are private to a particular module, thereby avoiding the possibility of name conflicts.
+{: id="20201023101543-du5nsym"}
