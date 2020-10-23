@@ -48,8 +48,6 @@ int main(void)
 ```
 {: id="20201022210720-dx41igf"}
 
-{: id="20201022211023-8lc1j9g"}
-
 ### Linkage
 {: id="20201022211023-eg4gzez"}
 
@@ -77,9 +75,6 @@ Scope and linkage describe the visibility of identifiers. Storage duration descr
 of the objects accessed by these identifiers. A C object has one of the following four storage
 durations: static storage duration, thread storage duration, automatic storage duration, or allocated storage duration
 {: id="20201022211801-41koa2v"}
-
-
-{: id="20201022212051-85dt3tq"}
 
 If an object has **static storage duration**, it exists throughout program execution. Variables with
 file scope have static storage duration. Note that for file scope variables, the keyword static
@@ -127,8 +122,6 @@ until the program terminates
 | static with no linkage | Static | Block | None | In a block with the keyword static |
 {: id="20201022213322-v5506h1"}
 
-{: id="20201022212217-lhjrb1r"}
-
 ### Automatic Variables
 {: id="20201022213343-fksc5lj"}
 
@@ -136,8 +129,6 @@ A variable belonging to the automatic storage class has automatic storage durati
 and no linkage. By default, any variable declared in a block or function header belongs to the
 automatic storage class.
 {: id="20201022213355-9elahop"}
-
-{: id="20201022213752-isng1zs"}
 
 ### Register Variables
 {: id="20201022213645-3ur83ft"}
@@ -156,4 +147,8 @@ register int quick;
 ```
 {: id="20201022213738-tic48j7"}
 
-{: id="20201022213735-pioaslj"}
+### Storage Vartiables
+{: id="20201023090503-gzd76wj"}
+
+Static variables are initialized to zero if you don’t explicitly initialize them to some other value.
+{: id="20201023090511-3cq0bsr"}
