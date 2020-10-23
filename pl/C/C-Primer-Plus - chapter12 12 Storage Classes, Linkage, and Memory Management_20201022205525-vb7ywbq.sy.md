@@ -251,4 +251,55 @@ declared.
 create two c source code files parta.c and partb.c
 {: id="20201023095714-2vvoxve"}
 
+```
+// compile with partb.c
+#include<stdio.h>
+
+void report_count();
+void accumulate(int k);
+int count = 0; // file scope, external linkage
+
+int main() {
+    int value; // automatic variable
+    register int i; // register variable
+
+    printf("Enter a positive integer (0 to quit): ");
+    while (scanf("%d", &value) == 1 && value > 0) {
+        ++count; // use file scope variable
+        for (i = value; i >= 0; i--) {
+            accumulate(i);
+        }
+        printf("Enter a positive integer (0 to quit): ");
+    }
+    report_count();
+    return 0;
+}
+
+void report_count() {
+    printf("Loop executed %d times\n", count);
+}
+
+/*
+1. compile
+$ gcc parta.c partb.c -o part
+
+2. execute
+$ ./part               
+Enter a positive integer (0 to quit): 10
+loop cycle: 1
+subtotal: 55; total: 55
+Enter a positive integer (0 to quit): 5
+loop cycle: 2
+subtotal: 15; total: 70
+Enter a positive integer (0 to quit): 2
+loop cycle: 3
+subtotal: 3; total: 73
+Enter a positive integer (0 to quit): 0
+Loop executed 3 times
+
+
+
+*/
+
+```
 {: id="20201023095744-ol0i7ig"}
