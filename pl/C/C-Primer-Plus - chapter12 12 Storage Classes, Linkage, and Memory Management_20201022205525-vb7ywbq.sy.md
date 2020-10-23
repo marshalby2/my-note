@@ -208,3 +208,10 @@ Both traveler and stayhome are global for this particular translation unit, but 
 can be used by code in other translation units. The two declarations using extern document
 that main() is using the two global variables, but stayhome continues to have internal linkage.
 {: id="20201023092954-mpmmlvc"}
+
+### Muti
+{: id="20201023093138-ovwavcr"}
+
+The difference between internal linkage and external linkage is important only when you have
+a program built from multiple translation units, so let’s take a quick look at that topic.
+{: id="20201023093054-5n7wo68"}
