@@ -150,5 +150,9 @@ register int quick;
 ### Static Vartiables with Block Scope
 {: id="20201023090503-gzd76wj"}
 
-Static variables are initialized to zero if you don’t explicitly initialize them to some other value.
+1. Static variables are initialized to zero if you don’t explicitly initialize them to some other value.
 {: id="20201023090511-3cq0bsr"}
+
+You can’t use static for function parameters:
+int wontwork(static int flu); // not allowed
+{: id="20201023090620-kbxpyzj"}
