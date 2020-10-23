@@ -251,7 +251,7 @@ declared.
 create two c source code files parta.c and partb.c
 {: id="20201023095714-2vvoxve"}
 
-parta.c
+**parta.c**
 {: id="20201023095857-h9kgwg4"}
 
 ```
