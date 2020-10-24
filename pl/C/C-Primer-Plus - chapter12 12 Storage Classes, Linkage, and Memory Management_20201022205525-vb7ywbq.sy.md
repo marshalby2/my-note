@@ -438,9 +438,6 @@ int main() {
 {: id="20201024173837-1ctmfqv"}
 
 Another option for memory allotment is to use calloc(). A typical use looks like this:
-{: id="20201024173904-g2h5dk5"}
-
-```long * newmem;
+long * newmem;
 newmem = (long *)calloc(100, sizeof (long));
-```
 {: id="20201024173849-n4mk31a"}
