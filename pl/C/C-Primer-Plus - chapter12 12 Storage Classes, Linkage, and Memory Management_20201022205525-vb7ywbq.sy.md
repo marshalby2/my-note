@@ -459,8 +459,7 @@ memory.
 
 {: id="20201024174810-q02o6bv"}
 
-The amount of memory needed for the **static duration storage classes** is known at compile time,
-and the data stored in this section is available as long as the program runs. Each variable of
+The amount of memory needed for the **static duration storage classes** is known at compile time, and the data stored in this section is available as long as the program runs. Each variable of
 these classes comes into being when the program starts and expires when the program ends.
 An automatic variable, however, comes into existence when a program enters the block of code
 containing the variable’s definition and expires when its block of code is exited. Therefore, as a
