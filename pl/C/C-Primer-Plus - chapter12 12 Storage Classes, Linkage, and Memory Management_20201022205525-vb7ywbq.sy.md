@@ -528,6 +528,8 @@ int main()
 ```
 {: id="20201024180440-blgd7qb"}
 
+{: id="20201024180446-pq8bht7"}
+
 {: id="20201024180415-4auq0ra"}
 
 As you can see, static data, including string literals occupies one region, automatic data a
