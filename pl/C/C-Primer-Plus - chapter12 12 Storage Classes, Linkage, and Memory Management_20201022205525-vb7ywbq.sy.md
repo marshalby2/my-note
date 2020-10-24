@@ -535,6 +535,7 @@ int main()
 Here is the output for one system:
 {: id="20201024180513-ziq3k13"}
 
+```shell
 static_store: 30 at 0x5563b1792014
 auto_store: 40 at 0x5563b1792014
 *pi: 35 at 0x5563b228a260
@@ -542,6 +543,7 @@ String Literal at 0x5563b1591974
 Auto char Array at 0x7ffe49f03db0
 Dynamic String at 0x5563b228a280
 Quoted String at 0x5563b15919d6
+```
 {: id="20201024180516-hrkjzmk"}
 
 {: id="20201024180415-4auq0ra"}
