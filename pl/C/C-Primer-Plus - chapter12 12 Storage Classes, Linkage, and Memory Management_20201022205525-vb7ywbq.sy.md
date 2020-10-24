@@ -383,8 +383,7 @@ This code requests space for 30 type double values and sets ptd to point to the 
 {: id="20201024173046-gqn39ns"}
 
 The free() function takes as its argument an address returned earlier by malloc() and frees up the memory that had been allocated. Thus, the duration of allocated memory is from when malloc() is
-called to allocate the memory until free() is called to free up the memory so that it can be
-reused
+called to allocate the memory until free() is called to free up the memory so that it can be reused
 {: id="20201024173257-x1i3yje"}
 
 {: id="20201024173303-ik52x4s"}
