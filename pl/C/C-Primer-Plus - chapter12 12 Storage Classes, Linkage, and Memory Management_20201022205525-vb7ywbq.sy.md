@@ -387,3 +387,6 @@ called to allocate the memory until free() is called to free up the memory so th
 {: id="20201024173257-x1i3yje"}
 
 {: id="20201024173303-ik52x4s"}
+
+code examples
+{: id="20201024173418-x9ft7zc"}
