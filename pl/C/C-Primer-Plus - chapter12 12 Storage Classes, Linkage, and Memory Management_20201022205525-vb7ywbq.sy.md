@@ -546,8 +546,6 @@ Quoted String at 0x5563b15919d6
 ```
 {: id="20201024180516-hrkjzmk"}
 
-{: id="20201024180415-4auq0ra"}
-
 As you can see, static data, including string literals occupies one region, automatic data a
 second region, and dynamically allocated data a third region (often called a memory heap or free
 store).
