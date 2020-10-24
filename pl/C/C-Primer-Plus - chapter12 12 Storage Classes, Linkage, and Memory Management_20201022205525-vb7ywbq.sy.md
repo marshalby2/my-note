@@ -359,7 +359,7 @@ that gives you more flexibility. That choice is using library functions to alloc
 memory.
 {: id="20201023101826-71hoajd"}
 
-### malloc()
+### The malloc() function
 {: id="20201024173243-sae3l2b"}
 
 The **malloc()** function, which takes one argument: the number of bytes of memory you want. It does return the address of the first byte of that block. Therefore, you can assign that address to a pointer variable and use the pointer to access the memory. If malloc() fails to find the required space, it returns the null pointer.
