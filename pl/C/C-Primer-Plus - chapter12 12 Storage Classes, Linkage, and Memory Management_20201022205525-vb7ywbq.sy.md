@@ -362,4 +362,11 @@ memory.
 The **malloc()** function, which takes one argument: the number of bytes of memory you want. It does return the address of the first byte of that block. Therefore, you can assign that address to a pointer variable and use the pointer to access the memory. If malloc() fails to find the required space, it returns the null pointer.
 {: id="20201024172620-j5qt4wj"}
 
+Let’s apply malloc() to the task of creating an array. You can use malloc() to request a block
+of storage as the program is running. You also need a pointer to keep track of where the block
+is in memory. For example, consider this code:
+double * ptd;
+ptd = (double *) malloc(30 * sizeof(double));
+{: id="20201024172958-rnilprv"}
+
 {: id="20201024172626-rtz6yj4"}
