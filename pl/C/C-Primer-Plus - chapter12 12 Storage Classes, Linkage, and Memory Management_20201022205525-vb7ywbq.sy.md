@@ -359,5 +359,7 @@ that gives you more flexibility. That choice is using library functions to alloc
 memory.
 {: id="20201023101826-71hoajd"}
 
-the malloc() function, which takes one argument: the number of bytes of memory you want.
+the **malloc()** function, which takes one argument: the number of bytes of memory you want.
 {: id="20201024172620-j5qt4wj"}
+
+{: id="20201024172626-rtz6yj4"}
