@@ -463,7 +463,7 @@ The amount of memory needed for the **static duration storage classes** is known
 these classes comes into being when the program starts and expires when the program ends.
 {: id="20201024174808-zzfcf0v"}
 
-An automatic variable, however, comes into existence when a program enters the block of code
+**An automatic variable**, however, comes into existence when a program enters the block of code
 containing the variable’s definition and expires when its block of code is exited. Therefore, as a
 program calls functions and as functions terminate, the amount of memory used by automatic
 variables grows and shrinks. This section of memory is typically handled as a stack. That means
