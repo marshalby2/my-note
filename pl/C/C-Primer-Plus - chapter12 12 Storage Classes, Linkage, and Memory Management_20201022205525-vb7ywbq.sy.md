@@ -452,4 +452,11 @@ The first argument is the number of memory cells you want. The second argument i
 # Storage Classes and Dynamic Memory Allocation
 {: id="20201024174008-p9q2s3h"}
 
+You might be wondering about the connection between storage classes and dynamic memory
+allocation. Let’s look at an idealized model. You can think of a program as dividing its available memory into three separate sections: one for static variables with external linkage, internal linkage, and no linkage; one for automatic variables; and one for dynamically allocated
+memory.
 {: id="20201024174757-vqx1go9"}
+
+{: id="20201024174810-q02o6bv"}
+
+{: id="20201024174808-zzfcf0v"}
