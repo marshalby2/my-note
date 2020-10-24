@@ -481,7 +481,7 @@ Typically, a program uses different regions of memory for static objects, automa
 dynamically allocated objects. Listing 12.15 illustrates this point.
 {: id="20201024175408-ymhf7rh"}
 
-Listing 12.15 The ** where.c**  Program
+Listing 12.15 The **where.c**  Program
 {: id="20201024175423-dycon2c"}
 
 ---
@@ -536,13 +536,13 @@ Here is the output for one system:
 {: id="20201024180513-ziq3k13"}
 
 ```shell
-static_store: 30 at 0x5563b1792014
-auto_store: 40 at 0x5563b1792014
-*pi: 35 at 0x5563b228a260
-String Literal at 0x5563b1591974
-Auto char Array at 0x7ffe49f03db0
-Dynamic String at 0x5563b228a280
-Quoted String at 0x5563b15919d6
+static_store: 30 at 0x556566773014
+  auto_store: 40 at 0x7ffc88d8403c
+         *pi: 35 at 0x55656795c260
+ String Literal at 0x556566572964
+ Auto char Array at 0x7ffc88d84050
+ Dynamic String at 0x55656795c280
+ Quoted String at 0x5565665729c6
 ```
 {: id="20201024180516-hrkjzmk"}
 
@@ -550,3 +550,5 @@ As you can see, static data, including string literals occupies one region, auto
 second region, and dynamically allocated data a third region (often called a memory heap or free
 store).
 {: id="20201024180412-mk5qe75"}
+
+{: id="20201024180614-eo0rbx2"}
