@@ -461,6 +461,8 @@ memory.
 
 The amount of memory needed for the **static duration storage classes** is known at compile time, and the data stored in this section is available as long as the program runs. Each variable of
 these classes comes into being when the program starts and expires when the program ends.
+{: id="20201024174808-zzfcf0v"}
+
 An automatic variable, however, comes into existence when a program enters the block of code
 containing the variable’s definition and expires when its block of code is exited. Therefore, as a
 program calls functions and as functions terminate, the amount of memory used by automatic
@@ -475,4 +477,4 @@ blocks of memory. Also, using dynamic memory tends to be a slower process than u
 memory.
 Typically, a program uses different regions of memory for static objects, automatic objects, and
 dynamically allocated objects. Listing 12.15 illustrates this point.
-{: id="20201024174808-zzfcf0v"}
+{: id="20201024175404-zhhb8tg"}
