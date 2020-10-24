@@ -469,6 +469,8 @@ program calls functions and as functions terminate, the amount of memory used by
 variables grows and shrinks. This section of memory is typically handled as a stack. That means
 new variables are added sequentially in memory as they are created and then are removed in
 the opposite order as they pass away.
+{: id="20201024175404-zhhb8tg"}
+
 Dynamically allocated memory comes into existence when malloc() or a related function is
 called, and it’s freed when free() is called. Memory persistence is controlled by the programmer, not by a set of rigid rules, so a memory block can be created in one function and disposed
 of in another function. Because of this, the section of memory used for dynamic memory
@@ -477,4 +479,4 @@ blocks of memory. Also, using dynamic memory tends to be a slower process than u
 memory.
 Typically, a program uses different regions of memory for static objects, automatic objects, and
 dynamically allocated objects. Listing 12.15 illustrates this point.
-{: id="20201024175404-zhhb8tg"}
+{: id="20201024175408-ymhf7rh"}
