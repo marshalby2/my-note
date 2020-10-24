@@ -365,8 +365,12 @@ The **malloc()** function, which takes one argument: the number of bytes of memo
 Let’s apply malloc() to the task of creating an array. You can use malloc() to request a block
 of storage as the program is running. You also need a pointer to keep track of where the block
 is in memory. For example, consider this code:
+{: id="20201024173005-abrg7qx"}
+
+```c
 double * ptd;
 ptd = (double *) malloc(30 * sizeof(double));
+```
 {: id="20201024172958-rnilprv"}
 
 {: id="20201024172626-rtz6yj4"}
