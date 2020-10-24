@@ -481,7 +481,11 @@ Typically, a program uses different regions of memory for static objects, automa
 dynamically allocated objects. Listing 12.15 illustrates this point.
 {: id="20201024175408-ymhf7rh"}
 
+Listing 12.15 The where.c Program
 {: id="20201024175423-dycon2c"}
+
+---
+
 
 {: id="20201024180415-4auq0ra"}
 
