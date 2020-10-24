@@ -449,4 +449,7 @@ newmem = (long *)calloc(100, sizeof (long));
 The first argument is the number of memory cells you want. The second argument is the size of each cell in bytes. In our case, long uses 4 bytes, so this instruction sets up 100  4-byte units, using 400 bytes in all for storage. (The free() function can also be used to free memory allocated by calloc().)
 {: id="20201024173920-n7uwf5v"}
 
+# Storage Classes and Dynamic Memory Allocation
 {: id="20201024174008-p9q2s3h"}
+
+{: id="20201024174757-vqx1go9"}
