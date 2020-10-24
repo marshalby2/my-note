@@ -73,7 +73,7 @@ int main()
 
 Scope and linkage describe the visibility of identifiers. Storage duration describes the persistence
 of the objects accessed by these identifiers. A C object has one of the following four storage
-durations: static storage duration, thread storage duration, automatic storage duration, or allocated storage duration
+durations: **static storage duration, thread storage duration, automatic storage duration, or allocated storage duration**
 {: id="20201022211801-41koa2v"}
 
 If an object has **static storage duration**, it exists throughout program execution. Variables with
