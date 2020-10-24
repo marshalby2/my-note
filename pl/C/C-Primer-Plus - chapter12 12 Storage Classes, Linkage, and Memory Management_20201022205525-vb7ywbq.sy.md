@@ -379,7 +379,7 @@ ptd = (double *) malloc(30 * sizeof(double));
 This code requests space for 30 type double values and sets ptd to point to the location
 {: id="20201024172626-rtz6yj4"}
 
-### free()
+### The free() function
 {: id="20201024173046-gqn39ns"}
 
 The free() function takes as its argument an address returned earlier by malloc() and frees up the memory that had been allocated. Thus, the duration of allocated memory is from when malloc() is
