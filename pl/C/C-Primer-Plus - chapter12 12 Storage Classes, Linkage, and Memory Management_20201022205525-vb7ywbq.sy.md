@@ -471,7 +471,7 @@ new variables are added sequentially in memory as they are created and then are 
 the opposite order as they pass away.
 {: id="20201024175404-zhhb8tg"}
 
-Dynamically allocated memory comes into existence when malloc() or a related function is
+**Dynamically allocated memor**y comes into existence when malloc() or a related function is
 called, and it’s freed when free() is called. Memory persistence is controlled by the programmer, not by a set of rigid rules, so a memory block can be created in one function and disposed
 of in another function. Because of this, the section of memory used for dynamic memory
 allocation can end up fragmented—that is, unused chunks could be interspersed among active
