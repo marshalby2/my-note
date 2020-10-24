@@ -156,8 +156,6 @@ register int quick;
 2. You can’t use static for function parameters:`int wontwork(static int flu); // not allowed`
 {: id="20201023090620-kbxpyzj"}
 
-{: id="20201023090725-2ps73tj"}
-
 ### Static Variables with External Linkage
 {: id="20201023091207-2ogail5"}
 
@@ -216,8 +214,6 @@ The difference between internal linkage and external linkage is important only w
 a program built from multiple translation units, so let’s take a quick look at that topic.
 {: id="20201023093054-5n7wo68"}
 
-{: id="20201023093147-o9qshol"}
-
 ### Summary: Storage Classes
 {: id="20201023093631-vgbdenm"}
 
@@ -242,8 +238,6 @@ scope variable has external linkage, it can be used by other translation units i
 If a file scope variable has internal linkage, it can be used just within the file in which it is
 declared.
 {: id="20201023093623-jm7q6ix"}
-
-{: id="20201023095703-iuxam82"}
 
 ### Code Example
 {: id="20201023095707-klokvwp"}
@@ -320,7 +314,7 @@ void accumulate(int k) { // k has block scope, no linkage
 $ gcc parta.c partb.c -o part
 
 # 2. execute
-$ ./part         
+$ ./part       
 Enter a positive integer (0 to quit): 10
 loop cycle: 1
 subtotal: 55; total: 55
@@ -355,8 +349,6 @@ program, but beta() cannot. Because this beta() is restricted to one file, you c
 class is to create functions that are private to a particular module, thereby avoiding the possibility of name conflicts.
 {: id="20201023101543-du5nsym"}
 
-{: id="20201023101823-vgn7ja2"}
-
 # Allocated Memory: malloc() and free()
 {: id="20201023101823-6kwf7ni"}
 
@@ -367,4 +359,6 @@ that gives you more flexibility. That choice is using library functions to alloc
 memory.
 {: id="20201023101826-71hoajd"}
 
-{: id="20201023101854-2xkzcox"}
+the
+malloc() function, which takes one argument: the number of bytes of memory you want.
+{: id="20201024172620-j5qt4wj"}
