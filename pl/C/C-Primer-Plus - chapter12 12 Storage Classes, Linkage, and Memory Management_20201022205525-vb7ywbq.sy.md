@@ -459,4 +459,21 @@ memory.
 
 {: id="20201024174810-q02o6bv"}
 
+The amount of memory needed for the static duration storage classes is known at compile time,
+and the data stored in this section is available as long as the program runs. Each variable of
+these classes comes into being when the program starts and expires when the program ends.
+An automatic variable, however, comes into existence when a program enters the block of code
+containing the variable’s definition and expires when its block of code is exited. Therefore, as a
+program calls functions and as functions terminate, the amount of memory used by automatic
+variables grows and shrinks. This section of memory is typically handled as a stack. That means
+new variables are added sequentially in memory as they are created and then are removed in
+the opposite order as they pass away.
+Dynamically allocated memory comes into existence when malloc() or a related function is
+called, and it’s freed when free() is called. Memory persistence is controlled by the programmer, not by a set of rigid rules, so a memory block can be created in one function and disposed
+of in another function. Because of this, the section of memory used for dynamic memory
+allocation can end up fragmented—that is, unused chunks could be interspersed among active
+blocks of memory. Also, using dynamic memory tends to be a slower process than using stack
+memory.
+Typically, a program uses different regions of memory for static objects, automatic objects, and
+dynamically allocated objects. Listing 12.15 illustrates this point.
 {: id="20201024174808-zzfcf0v"}
