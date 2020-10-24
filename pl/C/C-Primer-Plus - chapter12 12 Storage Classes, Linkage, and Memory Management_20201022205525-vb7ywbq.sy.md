@@ -434,5 +434,7 @@ int main() {
 ```
 {: id="20201024173429-nx4n1i5"}
 
-### The
+### The calloc() function
 {: id="20201024173837-1ctmfqv"}
+
+{: id="20201024173849-n4mk31a"}
