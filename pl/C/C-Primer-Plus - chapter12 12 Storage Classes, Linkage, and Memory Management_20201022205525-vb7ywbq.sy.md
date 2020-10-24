@@ -445,3 +445,8 @@ long * newmem;
 newmem = (long *)calloc(100, sizeof (long));
 ```
 {: id="20201024173849-n4mk31a"}
+
+The first argument is the number of memory cells you want. The second argument
+is the size of each cell in bytes. In our case, long uses 4 bytes, so this instruction sets up 100
+4-byte units, using 400 bytes in all for storage.
+{: id="20201024173920-n7uwf5v"}
