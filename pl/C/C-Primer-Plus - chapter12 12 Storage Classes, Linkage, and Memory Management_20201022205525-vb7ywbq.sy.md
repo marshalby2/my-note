@@ -362,5 +362,4 @@ memory.
 The **malloc()** function, which takes one argument: the number of bytes of memory you want. It does return the address of the first byte of that block. Therefore, you can assign that address to a pointer variable and use the pointer to access the memory. If malloc() fails to find the required space, it returns the null pointer.
 {: id="20201024172620-j5qt4wj"}
 
-If malloc() fails to find the required space, it returns the null pointer.
 {: id="20201024172626-rtz6yj4"}
