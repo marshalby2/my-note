@@ -600,6 +600,6 @@ float * const pt; /* pt is a const pointer */
 ```
 {: id="20201025222814-sm133d6"}
 
-that the pointer pt itself cannot have its value changed. It must always point to the same
+that the pointer`pt` itself cannot have its value changed. It must always point to the same
 address, but the pointed-to value can change
 {: id="20201025222831-maompc0"}
