@@ -554,6 +554,10 @@ store).
 # ANSI C Type Qualifiers
 {: id="20201024180614-eo0rbx2"}
 
+- const
+-
+{: id="20201025221932-i5abhyh"}
+
 ### The const Type Qualifier
 {: id="20201025220429-f14wlz3"}
 
