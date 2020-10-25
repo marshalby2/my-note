@@ -551,5 +551,7 @@ second region, and dynamically allocated data a third region (often called a mem
 store).
 {: id="20201024180412-mk5qe75"}
 
-#
+# ANSI C Type Qualifiers
 {: id="20201024180614-eo0rbx2"}
+
+{: id="20201025220429-f14wlz3"}
