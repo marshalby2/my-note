@@ -560,6 +560,8 @@ store).
 - Atomic
 {: id="20201025221932-i5abhyh"}
 
+{: id="20201025221955-w0zym5c"}
+
 ### The const Type Qualifier
 {: id="20201025220429-f14wlz3"}
 
