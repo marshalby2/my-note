@@ -590,5 +590,8 @@ Pointers are more complicated because you have to distinguish between making the
 const float * pf; /* pf points to a constant float value */
 
 
+float * const pt; /* pt is a const pointer */
 ```
 {: id="20201025222659-f82qr25"}
+
+{: id="20201025222722-wr7bqdx"}
