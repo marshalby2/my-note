@@ -585,3 +585,8 @@ int main() {
 
 Pointers are more complicated because you have to distinguish between making the pointer itself const and making the value that is pointed to const
 {: id="20201025222532-sz8ld16"}
+
+```c
+
+```
+{: id="20201025222659-f82qr25"}
