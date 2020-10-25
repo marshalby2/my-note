@@ -608,3 +608,9 @@ address, but the pointed-to value can change
 const float * const ptr;
 ```
 {: id="20201025222915-n4w7sb7"}
+
+that ptr must always point to the same location and that the value stored at the
+location must not change.
+{: id="20201025222930-zw5gas5"}
+
+{: id="20201025222946-euzsrlh"}
