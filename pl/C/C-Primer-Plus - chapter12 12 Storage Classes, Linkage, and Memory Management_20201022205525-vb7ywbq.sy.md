@@ -603,3 +603,8 @@ float * const pt; /* pt is a const pointer */
 that the pointer`pt` itself cannot have its value changed. It must always point to the same
 address, but the pointed-to value can change
 {: id="20201025222831-maompc0"}
+
+```c
+pf
+```
+{: id="20201025222915-n4w7sb7"}
