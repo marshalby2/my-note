@@ -565,6 +565,19 @@ store).
 ### The const Type Qualifier
 {: id="20201025220429-f14wlz3"}
 
+```
+#include<stdio.h>
+int main() {
+
+    const int month = 12;
+    const int age;
+    // age = 20;  not allowed
+    printf("moths = %d\n", month); // 12
+    printf("age = %d\n", age); // 0
+
+    return 0;
+}
+```
 {: id="20201025222419-8f00625"}
 
 {: id="20201025221912-qd3aoxc"}
