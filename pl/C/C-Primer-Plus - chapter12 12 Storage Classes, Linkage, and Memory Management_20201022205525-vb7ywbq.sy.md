@@ -591,7 +591,7 @@ const float * pf; /* pf points to a constant float value */
 ```
 {: id="20201025222659-f82qr25"}
 
-pf points to a value that must remain constant. The value of pf itself can
+`pf`points to a value that must remain constant. The value of pf itself can
 be changed
 {: id="20201025222805-n7za74a"}
 
@@ -603,3 +603,5 @@ float * const pt; /* pt is a const pointer */
 that the pointer`pt` itself cannot have its value changed. It must always point to the same
 address, but the pointed-to value can change
 {: id="20201025222831-maompc0"}
+
+{: id="20201025222843-mehlxbp"}
