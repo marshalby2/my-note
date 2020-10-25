@@ -587,6 +587,8 @@ Pointers are more complicated because you have to distinguish between making the
 {: id="20201025222532-sz8ld16"}
 
 ```c
+const float * pf; /* pf points to a constant float value */
+
 
 ```
 {: id="20201025222659-f82qr25"}
