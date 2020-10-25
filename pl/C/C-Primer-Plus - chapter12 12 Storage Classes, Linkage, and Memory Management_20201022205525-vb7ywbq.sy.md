@@ -565,4 +565,6 @@ store).
 ### The const Type Qualifier
 {: id="20201025220429-f14wlz3"}
 
+{: id="20201025222419-8f00625"}
+
 {: id="20201025221912-qd3aoxc"}
