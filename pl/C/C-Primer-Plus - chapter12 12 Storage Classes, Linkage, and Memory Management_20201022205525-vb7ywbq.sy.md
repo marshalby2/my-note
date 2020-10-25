@@ -594,4 +594,6 @@ float * const pt; /* pt is a const pointer */
 ```
 {: id="20201025222659-f82qr25"}
 
-{: id="20201025222722-wr7bqdx"}
+pf points to a value that must remain constant. The value of pf itself can
+be changed
+{: id="20201025222805-n7za74a"}
