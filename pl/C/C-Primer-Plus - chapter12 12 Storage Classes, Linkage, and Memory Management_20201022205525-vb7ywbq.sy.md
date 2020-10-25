@@ -605,6 +605,6 @@ address, but the pointed-to value can change
 {: id="20201025222831-maompc0"}
 
 ```c
-pf
+const float * const ptr;
 ```
 {: id="20201025222915-n4w7sb7"}
