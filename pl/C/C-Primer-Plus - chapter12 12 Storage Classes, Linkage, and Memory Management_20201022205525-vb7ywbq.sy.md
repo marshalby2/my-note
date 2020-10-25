@@ -557,7 +557,7 @@ store).
 - const
 - volatile
 - volatile
--
+- Atomic
 {: id="20201025221932-i5abhyh"}
 
 ### The const Type Qualifier
