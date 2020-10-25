@@ -556,6 +556,7 @@ store).
 
 - const
 - volatile
+- volatile
 -
 {: id="20201025221932-i5abhyh"}
 
