@@ -583,4 +583,7 @@ int main() {
 ##### Using const with Pointers and Parameter Declarations
 {: id="20201025221912-qd3aoxc"}
 
+Pointers
+are more complicated because you have to distinguish between making the pointer itself const
+and making the value that is pointed to const
 {: id="20201025222532-sz8ld16"}
