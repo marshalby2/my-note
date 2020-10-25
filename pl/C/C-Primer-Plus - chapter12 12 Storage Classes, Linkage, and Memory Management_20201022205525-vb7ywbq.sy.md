@@ -588,12 +588,14 @@ Pointers are more complicated because you have to distinguish between making the
 
 ```c
 const float * pf; /* pf points to a constant float value */
-
-
-float * const pt; /* pt is a const pointer */
 ```
 {: id="20201025222659-f82qr25"}
 
 pf points to a value that must remain constant. The value of pf itself can
 be changed
 {: id="20201025222805-n7za74a"}
+
+```c
+float * const pt; /* pt is a const pointer */
+```
+{: id="20201025222814-sm133d6"}
