@@ -52,7 +52,7 @@ int main(void)
 {: id="20201022211023-eg4gzez"}
 
 Next, let’s look at linkage. A C variable has one of the following linkages: external linkage,
-internal linkage, or no linkage. Variables with block scope, function scope, or function prototype scope have no linkage. That means they are private to the block, function, or prototype in
+internal linkage, or no linkage. **Variables with block scope, function scope, or function prototype scope have no linkage**. That means they are private to the block, function, or prototype in
 which they are defined. A variable with file scope can have either internal or external linkage.
 A variable with external linkage can be used anywhere in a multifile program. A variable with
 internal linkage can be used anywhere in a single translation unit.
@@ -606,3 +606,5 @@ location must not change.
 **In short, a const anywhere to the left of the * makes the data constant; and a const to the right of the * makes the pointer itself
 constant.**
 {: id="20201026085216-p89a4wq"}
+
+{: id="20201026085236-8w3fuyl"}
