@@ -7,6 +7,10 @@ in its basic form to represent a diversity of data, and it enables you to invent
 # Sample Problem: Creating an Inventory of Books
 {: id="20201026214441-qou7yoq"}
 
+{: id="20201026214521-gtjanzp"}
+
+{: id="20201026214523-w8tp6rj"}
+
 ```
 #include<stdio.h>
 #include<string.h>
