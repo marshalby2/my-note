@@ -314,7 +314,7 @@ void accumulate(int k) { // k has block scope, no linkage
 $ gcc parta.c partb.c -o part
 
 # 2. execute
-$ ./part       
+$ ./part     
 Enter a positive integer (0 to quit): 10
 loop cycle: 1
 subtotal: 55; total: 55
@@ -386,8 +386,6 @@ The free() function takes as its argument an address returned earlier by malloc(
 called to allocate the memory until free() is called to free up the memory so that it can be reused
 {: id="20201024173257-x1i3yje"}
 
-{: id="20201024173303-ik52x4s"}
-
 **code examples**
 {: id="20201024173418-x9ft7zc"}
 
@@ -457,8 +455,6 @@ allocation. Let’s look at an idealized model. You can think of a program as di
 memory.
 {: id="20201024174757-vqx1go9"}
 
-{: id="20201024174810-q02o6bv"}
-
 The amount of memory needed for the **static duration storage classes** is known at compile time, and the data stored in this section is available as long as the program runs. Each variable of
 these classes comes into being when the program starts and expires when the program ends.
 {: id="20201024174808-zzfcf0v"}
@@ -485,8 +481,6 @@ Listing 12.15 The **where.c**  Program
 {: id="20201024175423-dycon2c"}
 
 ---
-
-{: id="20201024180440-vz20aqs"}
 
 ```
 // where's the memory?
@@ -530,8 +524,6 @@ int main()
 
 ---
 
-{: id="20201024180513-uezzgfe"}
-
 Here is the output for one system:
 {: id="20201024180513-ziq3k13"}
 
@@ -559,8 +551,6 @@ store).
 - volatile
 - Atomic
 {: id="20201025221932-i5abhyh"}
-
-{: id="20201025221955-w0zym5c"}
 
 ### The const Type Qualifier
 {: id="20201025220429-f14wlz3"}
@@ -613,4 +603,5 @@ that ptr must always point to the same location and that the value stored at the
 location must not change.
 {: id="20201025222930-zw5gas5"}
 
-{: id="20201025222946-euzsrlh"}
+**In short, a const anywhere to the left, **
+{: id="20201026085216-p89a4wq"}
