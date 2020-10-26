@@ -603,6 +603,6 @@ that ptr must always point to the same location and that the value stored at the
 location must not change.
 {: id="20201025222930-zw5gas5"}
 
-**In short, a const anywhere to the left, of the * makes the data constant; and a const to the right of the * makes the pointer itself
+**In short, a const anywhere to the left of the * makes the data constant; and a const to the right of the * makes the pointer itself
 constant.**
 {: id="20201026085216-p89a4wq"}
