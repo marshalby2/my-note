@@ -9,7 +9,7 @@ in its basic form to represent a diversity of data, and it enables you to invent
 
 {: id="20201026214521-gtjanzp"}
 
-{: id="20201026214643-k904qpg"}
+{: id="20201026214647-dg07u5l"}
 
 ```
 #include<stdio.h>
@@ -62,7 +62,9 @@ char * s_gets(char * st, int n) {
 ```
 {: id="20201026214501-xcm150v"}
 
-{: id="20201026214643-gvc1ta9"}
+{: id="20201026214647-t71vju5"}
 
-###
+### Setting Up the Structure Declaration
 {: id="20201026214639-2zvn0gp"}
+
+{: id="20201026214645-nmsp044"}
