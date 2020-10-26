@@ -9,7 +9,7 @@ in its basic form to represent a diversity of data, and it enables you to invent
 
 {: id="20201026214521-gtjanzp"}
 
-{: id="20201026214727-8kcor88"}
+{: id="20201026214755-lbj74m1"}
 
 ```
 #include<stdio.h>
@@ -62,16 +62,16 @@ char * s_gets(char * st, int n) {
 ```
 {: id="20201026214501-xcm150v"}
 
-{: id="20201026214727-tulg3ct"}
+{: id="20201026214755-inlexuu"}
 
 ### Setting Up the Structure Declaration
 {: id="20201026214639-2zvn0gp"}
 
 ```c
 struct book {
-	char title[MAXTITL];
-	char author[MAXAUTL];
-	float value;
+    char title[MAXTITL];
+    char author[MAXTITL];
+    float value;
 };
 ```
 {: id="20201026214645-nmsp044"}
