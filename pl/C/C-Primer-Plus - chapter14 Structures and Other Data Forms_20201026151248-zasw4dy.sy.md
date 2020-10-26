@@ -4,4 +4,7 @@ to represent data a step further with the C structure variables. The C structure
 in its basic form to represent a diversity of data, and it enables you to invent new forms
 {: id="20201026214440-jn6cgc1"}
 
+# Sample Problem: Creating an Inventory of Books
 {: id="20201026214441-qou7yoq"}
+
+{: id="20201026214501-xcm150v"}
