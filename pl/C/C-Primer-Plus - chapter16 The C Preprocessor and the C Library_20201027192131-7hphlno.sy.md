@@ -80,4 +80,5 @@ Here, SQUARE is the macro identifier, the X in SQUARE(X) is the macro argument, 
 replacement list
 {: id="20201027195822-uqfax2z"}
 
+we can
 {: id="20201027195823-ovkbmxn"}
