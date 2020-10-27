@@ -7,10 +7,6 @@ in its basic form to represent a diversity of data, and it enables you to invent
 # Sample Problem: Creating an Inventory of Books
 {: id="20201026214441-qou7yoq"}
 
-{: id="20201026214521-gtjanzp"}
-
-{: id="20201026214952-c2p5bm8"}
-
 ```
 #include<stdio.h>
 #include<string.h>
@@ -62,8 +58,6 @@ char * s_gets(char * st, int n) {
 ```
 {: id="20201026214501-xcm150v"}
 
-{: id="20201026214952-wlirq2h"}
-
 ### Setting Up the Structure Declaration
 {: id="20201026214639-2zvn0gp"}
 
@@ -96,4 +90,5 @@ struct book library = {
 ```
 {: id="20201026214910-9fc4g2z"}
 
-{: id="20201026214907-i4p7h9q"}
+### Pointers and
+{: id="20201027141307-wscai8s"}
