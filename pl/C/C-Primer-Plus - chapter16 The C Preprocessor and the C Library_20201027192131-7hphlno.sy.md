@@ -82,4 +82,13 @@ replacement list
 ### Macro or Function?
 {: id="20201027230407-amqy9m4"}
 
+The macro-versus-function choice represents a trade-off between time and space. A macro
+produces inline code; that is, you get a statement in your program. If you use the macro 20
+times, you get 20 lines of code inserted into your program. If you use a function 20 times, you
+have just one copy of the function statements in your program, so less space is used. On the
+other hand, program control must shift to where the function is and then return to the calling
+program, and this takes longer than inline code.
+Macros have an advantage in that they don’t worry about variable types. (This is because they
+deal with character strings, not with actual values.) Therefore, the SQUARE(x) macro can be
+used equally well with int or float.
 {: id="20201027230410-khgo9nu"}
