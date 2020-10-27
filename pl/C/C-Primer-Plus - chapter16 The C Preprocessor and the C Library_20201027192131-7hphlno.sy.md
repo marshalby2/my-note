@@ -52,3 +52,5 @@ from a macro to a final replacement is called macro expansion. Note that you can
 C comments on a #define line; as mentioned earlier, each is replaced by a space before the
 preprocessor sees it
 {: id="20201027194026-y1wfqba"}
+
+{: id="20201027194042-bzcg61j"}
