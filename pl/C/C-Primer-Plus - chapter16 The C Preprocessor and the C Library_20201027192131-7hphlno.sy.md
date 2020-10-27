@@ -13,8 +13,6 @@ preceded by spaces or tabs, and it allows for space between the # and the remain
 directive.
 {: id="20201027192718-2sjuy2v"}
 
-{: id="20201027194028-766hxvy"}
-
 ```
 #include<stdio.h>
 
@@ -37,8 +35,6 @@ int main() {
 ```
 {: id="20201027194028-qjqeuh5"}
 
-{: id="20201027192736-d2wi2hn"}
-
 Each #define line (logical line, that is) has three parts. The first part is the #define directive
 itself. The second part is your chosen abbreviation, known as a macro. Some macros, like these
 examples, represent values; they are called object-like macros. (C also has function-like macros,
@@ -55,8 +51,6 @@ preprocessor sees it
 
 ![16.1.png](assets/20201027194159-hysbzim-16.1.png)
 {: id="20201027194042-bzcg61j"}
-
-{: id="20201027195216-0o8v4cm"}
 
 # Using Arguments with #define
 {: id="20201027195217-vhp5ca2"}
@@ -80,7 +74,12 @@ Here, SQUARE is the macro identifier, the X in SQUARE(X) is the macro argument, 
 replacement list
 {: id="20201027195822-uqfax2z"}
 
- `#define SQUARE(x) ((x)*(x))`
+`#define SQUARE(x) ((x)*(x))`
 {: id="20201027195823-ovkbmxn"}
 
-{: id="20201027200006-64rjry9"}
+{: id="20201027213457-9vhiaj8"}
+
+### Macro or Function?
+{: id="20201027230407-amqy9m4"}
+
+{: id="20201027230410-khgo9nu"}
