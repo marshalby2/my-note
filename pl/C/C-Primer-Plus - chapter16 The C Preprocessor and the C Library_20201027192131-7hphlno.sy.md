@@ -15,6 +15,26 @@ directive.
 
 {: id="20201027194028-766hxvy"}
 
+```
+#include<stdio.h>
+
+#define TWO 2
+# define OW "Consistency is the last refuge of the unimagina\
+tive. - Oscar Wilde"
+#define FOUR TWO*TWO
+#define PX printf("x is %d.\n", x)
+
+int main() {
+    int x = TWO;
+    PX;
+    x = FOUR;
+    // printf(FMT, x);
+    printf("%s\n", OW);
+    printf("TWO: OW\n");
+
+    return 0;
+}
+```
 {: id="20201027194028-qjqeuh5"}
 
 {: id="20201027192736-d2wi2hn"}
