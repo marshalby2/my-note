@@ -55,3 +55,10 @@ preprocessor sees it
 
 ![16.1.png](assets/20201027194159-hysbzim-16.1.png)
 {: id="20201027194042-bzcg61j"}
+
+{: id="20201027195216-0o8v4cm"}
+
+# Using Arguments with #define
+{: id="20201027195217-vhp5ca2"}
+
+{: id="20201027195219-809yx62"}
