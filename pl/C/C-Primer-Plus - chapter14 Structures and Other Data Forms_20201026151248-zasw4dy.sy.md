@@ -151,7 +151,9 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027141641-ayrbipc"}
+{: id="20201027141648-tdez20k"}
 
-#
+# Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
+
+{: id="20201027141646-qe7ayrd"}
