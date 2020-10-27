@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027145444-krktzfm"}
+{: id="20201027145509-ba0w0hq"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,7 +191,7 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
-{: id="20201027145444-i0zj5is"}
+{: id="20201027145509-1m8r0j4"}
 
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
@@ -223,3 +223,8 @@ int area(const struct square * p) {
 }
 ```
 {: id="20201027145120-m9ix79b"}
+
+### Passing a Structure as an Argument
+{: id="20201027145505-i4xswxj"}
+
+{: id="20201027145507-i64la84"}
