@@ -36,7 +36,7 @@ int main() {
 {: id="20201027194028-qjqeuh5"}
 
 Each #define line (logical line, that is) has three parts. The first part is the #define directive
-itself. The second part is your chosen abbreviation, known as a macro. Some macros, like these
+itself. The second part is your chosen abbreviation, known as a **macro**. Some macros, like these
 examples, represent values; they are called object-like macros. (C also has function-like macros,
 and we’ll get to them later.) The macro name must have no spaces in it, and it must conform
 to the same naming rules that C variables follow: Only letters, digits, and the underscore (_)
