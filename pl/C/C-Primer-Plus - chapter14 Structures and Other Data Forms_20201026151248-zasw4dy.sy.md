@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027145509-ba0w0hq"}
+{: id="20201027145654-pn2edbl"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,7 +191,7 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
-{: id="20201027145509-1m8r0j4"}
+{: id="20201027145654-n2dz6r3"}
 
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
@@ -227,4 +227,25 @@ int area(const struct square * p) {
 ### Passing a Structure as an Argument
 {: id="20201027145505-i4xswxj"}
 
+```
+#include<stdio.h>
+
+struct square {
+    int length;
+    int width;
+};
+
+int area(struct square s); // 
+
+int main() {
+    struct square square = {20, 10};
+    // pass structure to function
+    printf("area : %d\n", area(square)); // area : 200
+    return 0;
+}
+
+int area(struct square s) {
+    return s.length * s.width;
+}
+```
 {: id="20201027145507-i64la84"}
