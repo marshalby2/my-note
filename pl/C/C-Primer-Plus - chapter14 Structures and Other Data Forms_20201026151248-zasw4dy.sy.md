@@ -151,9 +151,11 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027141648-tdez20k"}
+{: id="20201027144418-p2g8td0"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
 
+modern implementations give you a choice between passing structures as arguments and
+passing pointers to structures as arguments—or if you are concerned with just part of a structure, you can pass structure members as arguments. We’ll examine all three methods, beginning with passing structure members as arguments
 {: id="20201027141646-qe7ayrd"}
