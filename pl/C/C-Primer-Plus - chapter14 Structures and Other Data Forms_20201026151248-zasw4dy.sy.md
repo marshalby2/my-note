@@ -90,5 +90,63 @@ struct book library = {
 ```
 {: id="20201026214910-9fc4g2z"}
 
-### Pointers and
+### Pointers to Structures
 {: id="20201027141307-wscai8s"}
+
+```
+#include<stdio.h>
+
+#define LEN 20
+
+struct names {
+    char first[LEN];
+    char last[LEN];
+};
+
+struct guy {
+    struct names handle;
+    char favfood[LEN];
+    char job[LEN];
+    float income;
+
+};
+
+int main() {
+    struct guy fellow[2] = {
+        {
+            {
+                "Even", 
+                "Villard"
+            },
+            "grilled salmon",
+            "personality coach",
+            68112.00
+
+        },
+        {
+            {
+                "Rondeny",
+                "Swillbelly"
+            },
+            "tripe",
+            "tabloid editor",
+            232400.00
+        }
+    };
+
+    // printf("&fellow[0].income $%.2f\n", fellow[0].income);
+    printf("=========== operation by pointer ===========");
+    struct guy * him;   // here is a pointer to a structure
+    printf("address #1: %p #2: %p\n", &fellow[0], &fellow[1]);
+
+    him = &fellow[0];
+    printf("pointer #1: %p #2: %p\n", him, him + 1);
+    printf("him->income is $%.2f: (*him).income is $%.2f\n", him->income, (*him).income);
+
+    him++; // pointer to next structure
+    printf("him->favfood is %s:  him->handle.last is %s\n", him->favfood, him->handle.last);
+
+    return 0;
+}
+```
+{: id="20201027141355-rr1j8qt"}
