@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027145115-xdnia6i"}
+{: id="20201027145122-yugfkk5"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,5 +191,9 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
+{: id="20201027145122-er6z512"}
+
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
+
+{: id="20201027145120-m9ix79b"}
