@@ -7,4 +7,8 @@ the C library in this chapter, beginning with the preprocessor.
 # Manifest Constants: #define
 {: id="20201027192716-duxgzfi"}
 
+The #define preprocessor directive, like all preprocessor directives, begins with the # symbol
+at the beginning of a line. The ANSI and subsequent standards permit the # symbol to be
+preceded by spaces or tabs, and it allows for space between the # and the remainder of the
+directive.
 {: id="20201027192718-2sjuy2v"}
