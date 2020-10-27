@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027145920-kkqocw8"}
+{: id="20201027150052-w21i34n"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,7 +191,7 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
-{: id="20201027145920-ovut9w6"}
+{: id="20201027150052-eji6rqs"}
 
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
@@ -256,9 +256,15 @@ int area(struct square s) {
 Suppose you have to write a structure-related function. Should you use structure pointers as
 arguments, or should you use structure arguments and return values? Each approach has its
 strengths and weaknesses.
+{: id="20201027145838-ejnnyod"}
+
 The two advantages of the pointer argument method are that it works on older as well as newer
 C implementations and that it is quick; you just pass a single address. The disadvantage is that
 you have less protection for your data. Some operations in the called function could inadvertently affect data in the original structure. However, the ANSI C addition of the const qualifier
 solves that problem. For example, if you put code into the showinfo() function of Listing 11.8
 that changes any member of the structure, the compiler will catch it as an error.
-{: id="20201027145838-ejnnyod"}
+{: id="20201027150050-c08lzxy"}
+
+One advantage of passing structures as arguments is that the function works with copies of the
+original data, which is safer than working with the original data
+{: id="20201027150048-mjnmntj"}
