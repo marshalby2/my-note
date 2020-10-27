@@ -61,4 +61,17 @@ preprocessor sees it
 # Using Arguments with #define
 {: id="20201027195217-vhp5ca2"}
 
+```
+#include<stdio.h>
+
+#define SQUARE(x) x*x
+#define PX(x) printf("x is %d\n", x)
+
+int main() {
+    printf("The 2 square is %d\n", SQUARE(2));
+    int x = 10;
+    PX(x);
+    return 0;
+}
+```
 {: id="20201027195219-809yx62"}
