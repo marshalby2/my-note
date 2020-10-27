@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027150134-2vi9g3g"}
+{: id="20201027150138-97spxrt"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,7 +191,7 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
-{: id="20201027150134-hmkmjur"}
+{: id="20201027150138-jjgxrq5"}
 
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
@@ -264,8 +264,5 @@ you have less protection for your data. Some operations in the called function c
 solves that problem.
 {: id="20201027150057-j90je91"}
 
- One advantage of passing structures as arguments is that the function works with copies of the
+One advantage of passing structures as arguments is that the function works with copies of the original data, which is safer than working with the original data
 {: id="20201027150132-yvwc0cm"}
-
-original data, which is safer than working with the original data
-{: id="20201027150048-mjnmntj"}
