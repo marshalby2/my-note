@@ -93,7 +93,7 @@ struct book library = {
 ### Pointers to Structures
 {: id="20201027141307-wscai8s"}
 
-```c
+```C
 #include<stdio.h>
 
 #define LEN 20
