@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027144433-a65ybju"}
+{: id="20201027144507-mb61fmv"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -163,4 +163,9 @@ passing pointers to structures as arguments—or if you are concerned with just 
 ### Passing Structure Members
 {: id="20201027144419-impio1n"}
 
+As long as a structure member is a data type with a single value (that is, an int or one of its
+relatives, a char, a float, a double, or a pointer), it can be passed as a function argument to
+a function that accepts that particular type
 {: id="20201027144431-o6no18d"}
+
+{: id="20201027144506-x10ut3h"}
