@@ -53,4 +53,5 @@ C comments on a #define line; as mentioned earlier, each is replaced by a space 
 preprocessor sees it
 {: id="20201027194026-y1wfqba"}
 
+![16.1.png](assets/20201027194159-hysbzim-16.1.png)
 {: id="20201027194042-bzcg61j"}
