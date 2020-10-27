@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027145426-hzn0asp"}
+{: id="20201027145444-krktzfm"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,10 +191,14 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
-{: id="20201027145426-md609q1"}
+{: id="20201027145444-i0zj5is"}
 
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
+
+We will solve the same problem as before, but this time we will use the address of the structure
+as an argument
+{: id="20201027145442-mxlojo0"}
 
 ```
 #include<stdio.h>
