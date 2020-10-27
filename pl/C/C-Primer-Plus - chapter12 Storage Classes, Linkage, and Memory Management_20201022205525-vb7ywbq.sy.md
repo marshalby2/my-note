@@ -7,12 +7,11 @@ C’s memory management system exemplifies that control by letting you determine
 ### Scope
 {: id="20201022210324-7yq54dg"}
 
-Scope describes the region or regions of a program that can access an identifier. A C variable
-has one of the following scopes: block scope, function scope, function prototype scope, or file
-scope.
+Scope describes the region or regions of a program that can access an identifier. **A C variable
 {: id="20201022210330-59itslh"}
 
-##### block scope
+has one of the following scopes: block scope, function scope, function prototype scope, or file
+##### scope.**block scope
 {: id="20201022210655-00a6j7w"}
 
 the variables cleo and patrick in the following code both have block scope extending to the closing
@@ -311,7 +310,7 @@ void accumulate(int k) { // k has block scope, no linkage
 $ gcc parta.c partb.c -o part
 
 # 2. execute
-$ ./part     
+$ ./part   
 Enter a positive integer (0 to quit): 10
 loop cycle: 1
 subtotal: 55; total: 55
@@ -606,5 +605,3 @@ constant.**
 
 ### The volatile Type Qualifier
 {: id="20201026085236-8w3fuyl"}
-
-{: id="20201026093132-l8xjl0a"}
