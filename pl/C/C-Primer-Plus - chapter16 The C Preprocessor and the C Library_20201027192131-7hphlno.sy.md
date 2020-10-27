@@ -75,3 +75,7 @@ int main() {
 }
 ```
 {: id="20201027195219-809yx62"}
+
+Here, SQUARE is the macro identifier, the X in SQUARE(X) is the macro argument, and X*X is the
+replacement list
+{: id="20201027195822-uqfax2z"}
