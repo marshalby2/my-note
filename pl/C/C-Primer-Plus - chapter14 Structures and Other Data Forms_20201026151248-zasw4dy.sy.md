@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027145700-4nzlofv"}
+{: id="20201027145840-9qcmbhn"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,7 +191,7 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
-{: id="20201027145700-g4cpl5a"}
+{: id="20201027145840-3yorpjr"}
 
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
@@ -249,3 +249,8 @@ int area(struct square s) {
 }
 ```
 {: id="20201027145507-i64la84"}
+
+### Structures or Pointer to Structures?
+{: id="20201027145836-aexugw3"}
+
+{: id="20201027145838-ejnnyod"}
