@@ -80,7 +80,7 @@ Here, SQUARE is the macro identifier, the X in SQUARE(X) is the macro argument, 
 replacement list
 {: id="20201027195822-uqfax2z"}
 
- as this `#define SQUARE(x) ((x)*(x))`
+ `#define SQUARE(x) ((x)*(x))`
 {: id="20201027195823-ovkbmxn"}
 
 {: id="20201027200006-64rjry9"}
