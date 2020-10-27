@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027150059-ihzm18c"}
+{: id="20201027150128-iw3ws56"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -191,7 +191,7 @@ int area(int l, int w) {
 ```
 {: id="20201027145103-q4e1f9t"}
 
-{: id="20201027150059-a4531pq"}
+{: id="20201027150128-j1zb0oj"}
 
 ### Using the Structure Address
 {: id="20201027144506-x10ut3h"}
@@ -261,10 +261,8 @@ strengths and weaknesses.
 The two advantages of the pointer argument method are that it works on older as well as newer
 C implementations and that it is quick; you just pass a single address. The disadvantage is that
 you have less protection for your data. Some operations in the called function could inadvertently affect data in the original structure. However, the ANSI C addition of the const qualifier
-solves that problem. For example, if you put code into the showinfo() function of Listing 11.8
-that changes any member of the structure, the compiler will catch it as an error.
+solves that problem. One advantage of passing structures as arguments is that the function works with copies of the
 {: id="20201027150057-j90je91"}
 
-One advantage of passing structures as arguments is that the function works with copies of the
 original data, which is safer than working with the original data
 {: id="20201027150048-mjnmntj"}
