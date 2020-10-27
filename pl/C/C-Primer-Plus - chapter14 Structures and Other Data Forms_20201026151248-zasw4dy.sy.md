@@ -151,7 +151,7 @@ int main() {
 ```
 {: id="20201027141355-rr1j8qt"}
 
-{: id="20201027145105-9wp6ke2"}
+{: id="20201027145115-xdnia6i"}
 
 # Telling Functions About Structures
 {: id="20201027141639-iu3jtg1"}
@@ -168,6 +168,27 @@ relatives, a char, a float, a double, or a pointer), it can be passed as a funct
 a function that accepts that particular type
 {: id="20201027144431-o6no18d"}
 
+```
+#include<stdio.h>
+
+struct square {
+    int length;
+    int width;
+};
+
+int area(int, int);
+
+int main() {
+    struct square square = {20, 10};
+    // Passing Structure Members
+    printf("area : %d\n", area(square.length, square.width)); // area : 200
+    return 0;
+}
+
+int area(int l, int w) {
+    return l * w;
+}
+```
 {: id="20201027145103-q4e1f9t"}
 
 ### Using the Structure Address
