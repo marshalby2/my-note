@@ -8,10 +8,11 @@ C’s memory management system exemplifies that control by letting you determine
 {: id="20201022210324-7yq54dg"}
 
 Scope describes the region or regions of a program that can access an identifier. **A C variable
+has one of the following scopes: block scope, function scope, function prototype scope, or file
+scope**.
 {: id="20201022210330-59itslh"}
 
-has one of the following scopes: block scope, function scope, function prototype scope, or file
-##### scope.**block scope
+##### block scope
 {: id="20201022210655-00a6j7w"}
 
 the variables cleo and patrick in the following code both have block scope extending to the closing
