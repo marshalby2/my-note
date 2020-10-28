@@ -100,5 +100,10 @@ When the preprocessor spots an #include directive, it looks for the following fi
 includes the contents of that file within the current file. The #include directive in your source
 code file is replaced with the text from the included file. It’s as though you sat down and typed
 in the entire contents of the included file at that particular location in your source file. The
-#include directive comes in two varieties:
+#include directive comes in two varieties:  
 {: id="20201028090924-zsqwj32"}
+
+#include <stdio.h> ÅFilename directive>> in (angle brackets)> )>
+(angle)>angle brackets
+#include "mystuff.h" ÅFilename in double quotation marks
+{: id="20201028091016-qnrjsrl"}
