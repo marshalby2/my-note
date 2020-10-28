@@ -233,8 +233,4 @@ that is considered true if nonzero, and you can use C’s relational and logical
 ### Predefined Macros
 {: id="20201028145106-da8gwxr"}
 
-| col1 | col2 | col3 |
-| - | - | - |
-|   |   |   |
-|   |   |   |
 {: id="20201028145233-8f8akys"}
