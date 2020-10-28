@@ -104,7 +104,7 @@ in the entire contents of the included file at that particular location in your 
 {: id="20201028090924-zsqwj32"}
 
 **#include stdio.h**  Filename directive>> in (angle brackets)> )> (angle)>angle brackets
-#include "mystuff.h"  Filename in double quotation marks
+**#include "mystuff.h"**  Filename in double quotation marks
 {: id="20201028091016-qnrjsrl"}
 
 {: id="20201028091216-9qv0obf"}
