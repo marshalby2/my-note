@@ -209,6 +209,9 @@ example:
 {: id="20201028144948-ajaxtcv"}
 
 ```c
-
+/* arrays.h */
+#ifndef SIZE
+#define SIZE 100
+#endif
 ```
 {: id="20201028144914-nfhwzo0"}
