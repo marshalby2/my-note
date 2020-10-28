@@ -233,7 +233,7 @@ that is considered true if nonzero, and you can use C’s relational and logical
 
 | Macro | Meaning |
 | - | - |
-| _ _DATE_ _ |   |
+| _ __DATE_ _ |   |
 {: id="20201028145458-whtsuyr"}
 
 {: id="20201028145409-kgv1z0h"}
