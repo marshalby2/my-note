@@ -177,6 +177,24 @@ is done if the identifier isn’t defined.
 {: id="20201028143913-xpg08k2"}
 
 ```c
+#include<stdio.h>
 
+#define JUST_CHEKING
+#define LIMIT 4
+
+// #undef JUST_CHEKING
+
+int main() {
+    int i;
+    int total = 0;
+    for (i = 1; i <= LIMIT; i++) {
+        total += 2*i*i + 1;
+        #ifdef JUST_CHEKING
+        printf("i=%d, running total = %d\n", i, total);
+        #endif
+    }
+    printf("Grand total = %d\n", total);
+    return 0;
+}
 ```
 {: id="20201028143718-avshwer"}
