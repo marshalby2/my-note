@@ -211,7 +211,9 @@ example:
 ```c
 /* arrays.h */
 #ifndef SIZE
-	#define SIZE 100
+    #define SIZE 100
 #endif
 ```
 {: id="20201028144914-nfhwzo0"}
+
+{: id="20201028144956-xhzmajn"}
