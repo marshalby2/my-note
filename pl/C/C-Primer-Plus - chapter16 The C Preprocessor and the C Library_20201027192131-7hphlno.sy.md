@@ -107,4 +107,8 @@ in the entire contents of the included file at that particular location in your 
 **#include "mystuff.h"**  Filename in double quotation marks
 {: id="20201028091016-qnrjsrl"}
 
+On a Unix system, the angle brackets tell the preprocessor to look for the file in one or more
+standard system directories. The double quotation marks tell it to first look in your current
+directory (or some other directory that you have specified in the filename) and then look in the
+standard places:
 {: id="20201028091216-9qv0obf"}
