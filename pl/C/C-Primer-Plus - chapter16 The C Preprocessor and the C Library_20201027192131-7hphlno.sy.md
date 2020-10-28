@@ -233,12 +233,4 @@ that is considered true if nonzero, and you can use C’s relational and logical
 
 {: id="20201028145417-zcj9v9q"}
 
-| Macro | Meaning |
-{: id="20201028145347-3f5i17m"}
-
-| - | - |
-|   |   |
-|   |   |
-{: id="20201028145106-da8gwxr"}
-
 {: id="20201028145409-kgv1z0h"}
