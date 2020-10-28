@@ -248,7 +248,7 @@ int main() {
 ```
 {: id="20201028151024-5m4z85d"}
 
-{: id="20201028152020-pq61p04"}
+{: id="20201028152031-whthb3i"}
 
 ### Generic Selection (C11)
 {: id="20201028145409-kgv1z0h"}
@@ -267,6 +267,22 @@ A generic selection expression looks like this: `Generic(x, int: 0, float: 1, do
 {: id="20201028151230-bn6nrap"}
 
 ```c
+#include<stdio.h>
 
+#define MYTYPE(x) _Generic((x),\
+    int: "int",\
+    float: "float",\
+    double: "double",\
+    default: "other"\
+)
+
+int main() {
+    int d = 5;
+    printf("%s\n", MYTYPE(d));          // int
+    printf("%s\n", MYTYPE(2.0 * d));    // double
+    printf("%s\n", MYTYPE(3L));         // other
+    printf("%s\n", MYTYPE(&d));         // other
+    return 0;
+}
 ```
 {: id="20201028152007-pj92uwz"}
