@@ -151,6 +151,11 @@ digit cannot be the first character
 ### Conditional Compilation
 {: id="20201028143515-bbl4and"}
 
+You can use the other directives mentioned to set up conditional compilations. That is, you
+can use them to tell the compiler to accept or ignore blocks of information or code according
+to conditions at the time of compilation.
+{: id="20201028143934-qqcytxg"}
+
 ##### The #ifdef, #else, and #endif Directives
 {: id="20201028143908-f23no9v"}
 
