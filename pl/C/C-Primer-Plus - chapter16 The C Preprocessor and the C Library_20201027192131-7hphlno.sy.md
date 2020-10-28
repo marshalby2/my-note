@@ -231,10 +231,10 @@ that is considered true if nonzero, and you can use C’s relational and logical
 ### Predefined Macros
 {: id="20201028145345-o1kq0ix"}
 
-|   | Macro | Meaning |
+| Macro | Meaning |
 {: id="20201028145347-3f5i17m"}
 
-| - | - | - |
+| - | - |
 |   |   |   |
 |   |   |   |
 {: id="20201028145106-da8gwxr"}
