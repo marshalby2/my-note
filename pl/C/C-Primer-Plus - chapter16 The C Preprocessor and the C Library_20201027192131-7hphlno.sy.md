@@ -126,4 +126,12 @@ standard places:
 ### The #undef Directive
 {: id="20201028111726-u0ojhog"}
 
+The #undef directive “undefines” a given #define. That is, suppose you have this definition:
+#define LIMIT 400
+Then the directive
+#undef LIMIT
+removes that definition. Now, if you like, you can redefine LIMIT so that it has a new value.
+Even if LIMIT is not defined in the first place, it is still valid to undefine it. If you want to use a
+particular name and you are unsure whether it has been used previously, you can undefine it to
+be on the safe side.
 {: id="20201028111735-x3kyghs"}
