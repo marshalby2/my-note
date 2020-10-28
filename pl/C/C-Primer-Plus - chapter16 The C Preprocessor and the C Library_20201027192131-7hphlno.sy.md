@@ -248,7 +248,7 @@ int main() {
 ```
 {: id="20201028151024-5m4z85d"}
 
-{: id="20201028151955-a9nxu3c"}
+{: id="20201028152008-ev9bgkg"}
 
 ### Generic Selection (C11)
 {: id="20201028145409-kgv1z0h"}
@@ -263,6 +263,5 @@ preprocessor statement, but its usual use is a part of a #define macro definitio
 aspects of generic programming
 {: id="20201028151141-2z4kjc2"}
 
-A generic selection expression looks like this:
-_Generic(x, int: 0, float: 1, double: 2, default: 3)
+A generic selection expression looks like this: `Generic(x, int: 0, float: 1, double: 2, default: 3)`
 {: id="20201028151230-bn6nrap"}
