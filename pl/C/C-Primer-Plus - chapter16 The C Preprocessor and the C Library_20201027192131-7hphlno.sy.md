@@ -248,7 +248,7 @@ int main() {
 ```
 {: id="20201028151024-5m4z85d"}
 
-{: id="20201028151143-amoqe40"}
+{: id="20201028151232-n2s4mqd"}
 
 ### Generic Selection (C11)
 {: id="20201028145409-kgv1z0h"}
@@ -256,4 +256,11 @@ int main() {
 In programming, the term generic programming indicates code that is not specific to a particular type but which, once a type is specified, can be translated into code for that type
 {: id="20201028151027-zkisrbl"}
 
+C11 adds a new sort of expression, called a generic selection expression, that
+can be used to select a value on the basis of the type of an expression, that is, on whether the
+expression type is int, double, or some other type. The generic selection expression is not a
+preprocessor statement, but its usual use is a part of a #define macro definition that has some
+aspects of generic programming
 {: id="20201028151141-2z4kjc2"}
+
+{: id="20201028151230-bn6nrap"}
