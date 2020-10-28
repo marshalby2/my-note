@@ -159,6 +159,15 @@ to conditions at the time of compilation.
 ##### The #ifdef, #else, and #endif Directives
 {: id="20201028143908-f23no9v"}
 
+```c
+
+```
+{: id="20201028144217-e191wt2"}
+
+The #ifdef directive says that if the following identifier (MAVIS) has been defined by the
+preprocessor, follow all the directives and compile all the C code up to the next #else or
+#endif, whichever comes first. If there is an #else, everything from the #else to the #endif
+is done if the identifier isn’t defined.
 {: id="20201028143913-xpg08k2"}
 
 {: id="20201028143718-avshwer"}
