@@ -117,3 +117,11 @@ standard places:
 **#include "hot.h"** Searches your current working directory
 **#include "/usr/biff/p.h"** Searches the /usr/biff directory
 {: id="20201028091253-w2jry9n"}
+
+{: id="20201028091347-yrccb9w"}
+
+# Other Directives
+{: id="20201028111724-13q8c5r"}
+
+###
+{: id="20201028111726-u0ojhog"}
