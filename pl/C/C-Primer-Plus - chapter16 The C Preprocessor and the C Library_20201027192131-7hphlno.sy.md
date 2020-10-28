@@ -77,8 +77,6 @@ replacement list
 `#define SQUARE(x) ((x)*(x))`
 {: id="20201027195823-ovkbmxn"}
 
-{: id="20201027213457-9vhiaj8"}
-
 ### Macro or Function?
 {: id="20201027230407-amqy9m4"}
 
@@ -94,3 +92,8 @@ Macros have an advantage in that they don’t worry about variable types. (This 
 deal with character strings, not with actual values.) Therefore, the SQUARE(x) macro can be
 used equally well with int or float.
 {: id="20201027230450-bbm261u"}
+
+# File Inclusion: #include
+{: id="20201028090613-q987z76"}
+
+{: id="20201028090924-zsqwj32"}
