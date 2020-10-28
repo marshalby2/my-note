@@ -96,4 +96,9 @@ used equally well with int or float.
 # File Inclusion: #include
 {: id="20201028090613-q987z76"}
 
+When the preprocessor spots an #include directive, it looks for the following filename and
+includes the contents of that file within the current file. The #include directive in your source
+code file is replaced with the text from the included file. It’s as though you sat down and typed
+in the entire contents of the included file at that particular location in your source file. The
+#include directive comes in two varieties:
 {: id="20201028090924-zsqwj32"}
