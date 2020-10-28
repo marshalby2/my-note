@@ -232,7 +232,19 @@ that is considered true if nonzero, and you can use C’s relational and logical
 {: id="20201028145345-o1kq0ix"}
 
 ```c
+#include<stdio.h>
 
+void why_me();
+
+int main() {
+    printf("The file is %s.\n", __FILE__); // The file is predef.c.
+    printf("The date is %s.\n", __DATE__); // The date is Oct 28 2020.
+    printf("The time is %s.\n", __TIME__); // The time is 14:58:59.
+    printf("The version is %s.\n", __VERSION__);
+    printf("The line is %d.\n", __LINE__);
+    printf("The fuction is %s.\n", __func__);
+    return 0;
+}
 ```
 {: id="20201028151024-5m4z85d"}
 
