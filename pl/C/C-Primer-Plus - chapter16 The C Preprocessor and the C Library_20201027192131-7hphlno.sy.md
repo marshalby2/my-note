@@ -233,7 +233,7 @@ that is considered true if nonzero, and you can use C’s relational and logical
 ### Predefined Macros
 {: id="20201028145106-da8gwxr"}
 
-| Macro | col2 | col3 |
+| Macro | Meaning | col3 |
 | - | - | - |
 |   |   |   |
 |   |   |   |
