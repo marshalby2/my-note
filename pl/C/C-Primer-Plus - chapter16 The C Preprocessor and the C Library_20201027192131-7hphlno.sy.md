@@ -114,6 +114,6 @@ standard places:
 {: id="20201028091216-9qv0obf"}
 
 **#include stdio.h**  Searches directive>> system directories
-#include "hot.h" ÅSearches your current working directory
+**#include "hot.h"** ÅSearches your current working directory
 #include "/usr/biff/p.h" ÅSearches the /usr/biff directory
 {: id="20201028091253-w2jry9n"}
