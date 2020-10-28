@@ -103,5 +103,7 @@ in the entire contents of the included file at that particular location in your 
 #include directive comes in two varieties:  
 {: id="20201028090924-zsqwj32"}
 
-`#include <stdio.h> ÅFilename directive>> in (angle brackets)> )> (angle)>angle brackets #include "mystuff.h" ÅFilename in double quotation marks`
+`#include <stdio.h> ÅFilename directive>> in (angle brackets)> )>
+(angle)>angle brackets
+#include "mystuff.h" ÅFilename in double quotation marks
 {: id="20201028091016-qnrjsrl"}
