@@ -110,5 +110,10 @@ in the entire contents of the included file at that particular location in your 
 On a Unix system, the angle brackets tell the preprocessor to look for the file in one or more
 standard system directories. The double quotation marks tell it to first look in your current
 directory (or some other directory that you have specified in the filename) and then look in the
-standard places:
+standard places: 
 {: id="20201028091216-9qv0obf"}
+
+#include <stdio.h> ÅSearches directive>> system directories
+#include "hot.h" ÅSearches your current working directory
+#include "/usr/biff/p.h" ÅSearches the /usr/biff directory
+{: id="20201028091253-w2jry9n"}
