@@ -160,7 +160,13 @@ to conditions at the time of compilation.
 {: id="20201028143908-f23no9v"}
 
 ```c
-
+#ifdef MAVIS
+#include "horse.h" // gets done if MAVIS is #defined
+#define STABLES 5
+#else
+#include "cow.h" // gets done if MAVIS isn't #defined
+#define STABLES 15
+#endif
 ```
 {: id="20201028144217-e191wt2"}
 
