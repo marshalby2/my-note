@@ -221,7 +221,9 @@ example:
 
 The #if directive is more like the regular C if. It is followed by a constant integer expression
 that is considered true if nonzero, and you can use C’s relational and logical operators with it:
-#if SYS == 1
-#include "ibm.h"
-#endif
+{: id="20201028145057-9rie0fu"}
+
+```c
+
+```
 {: id="20201028145030-1mn5i5f"}
