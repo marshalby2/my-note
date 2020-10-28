@@ -248,7 +248,12 @@ int main() {
 ```
 {: id="20201028151024-5m4z85d"}
 
+{: id="20201028151143-amoqe40"}
+
 ### Generic Selection (C11)
 {: id="20201028145409-kgv1z0h"}
 
+In programming, the term generic programming indicates code that is not specific to a particular type but which, once a type is specified, can be translated into code for that type
 {: id="20201028151027-zkisrbl"}
+
+{: id="20201028151141-2z4kjc2"}
