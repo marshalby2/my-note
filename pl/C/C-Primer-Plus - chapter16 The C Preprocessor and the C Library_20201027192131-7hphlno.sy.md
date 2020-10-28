@@ -151,4 +151,9 @@ digit cannot be the first character
 ### Conditional Compilation
 {: id="20201028143515-bbl4and"}
 
+##### The #ifdef, #else, and #endif Directives
+{: id="20201028143908-f23no9v"}
+
+{: id="20201028143913-xpg08k2"}
+
 {: id="20201028143718-avshwer"}
