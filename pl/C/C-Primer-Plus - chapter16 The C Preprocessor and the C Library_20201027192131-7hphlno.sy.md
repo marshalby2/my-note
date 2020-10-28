@@ -140,4 +140,7 @@ particular name and you are unsure whether it has been used previously, you can 
 be on the safe side.
 {: id="20201028111909-7x2vtu3"}
 
+### Being Defined—The C Preprocessor Perspective
 {: id="20201028111859-41y5ugr"}
+
+{: id="20201028143458-a8fjsok"}
