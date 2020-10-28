@@ -176,4 +176,7 @@ preprocessor, follow all the directives and compile all the C code up to the nex
 is done if the identifier isn’t defined.
 {: id="20201028143913-xpg08k2"}
 
+```c
+
+```
 {: id="20201028143718-avshwer"}
