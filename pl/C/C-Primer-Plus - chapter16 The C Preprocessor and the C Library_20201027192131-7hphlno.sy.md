@@ -231,9 +231,4 @@ that is considered true if nonzero, and you can use C’s relational and logical
 ### Predefined Macros
 {: id="20201028145345-o1kq0ix"}
 
-| Macro | Meaning |
-| - | - |
-| __DAT_ _ |   |
-{: id="20201028145458-whtsuyr"}
-
 {: id="20201028145409-kgv1z0h"}
