@@ -100,7 +100,7 @@ When the preprocessor spots an #include directive, it looks for the following fi
 includes the contents of that file within the current file. The #include directive in your source
 code file is replaced with the text from the included file. It’s as though you sat down and typed
 in the entire contents of the included file at that particular location in your source file. The
-#include directive comes in two varieties:  
+#include directive comes in two varieties:
 {: id="20201028090924-zsqwj32"}
 
 **#include stdio.h**  Filename directive>> in (angle brackets)> )> (angle)>angle brackets
@@ -110,15 +110,13 @@ in the entire contents of the included file at that particular location in your 
 On a Unix system, the angle brackets tell the preprocessor to look for the file in one or more
 standard system directories. The double quotation marks tell it to first look in your current
 directory (or some other directory that you have specified in the filename) and then look in the
-standard places: 
+standard places:
 {: id="20201028091216-9qv0obf"}
 
 **#include stdio.h**  Searches directive>> system directories
 **#include "hot.h"** Searches your current working directory
 **#include "/usr/biff/p.h"** Searches the /usr/biff directory
 {: id="20201028091253-w2jry9n"}
-
-{: id="20201028091347-yrccb9w"}
 
 # Other Directives
 {: id="20201028111724-13q8c5r"}
@@ -233,7 +231,7 @@ that is considered true if nonzero, and you can use C’s relational and logical
 ### Predefined Macros
 {: id="20201028145106-da8gwxr"}
 
-| Macro | Meaning |   |
+|   | Macro | Meaning |
 | - | - | - |
 |   |   |   |
 |   |   |   |
