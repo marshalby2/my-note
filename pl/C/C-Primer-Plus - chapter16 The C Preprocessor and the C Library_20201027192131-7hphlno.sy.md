@@ -202,4 +202,12 @@ int main() {
 ##### The #ifndef Directive
 {: id="20201028144912-21hrt84"}
 
+The #ifndef directive can be used with #else and #endif in the same way that #ifdef is.
+The #ifndef asks whether the following identifier is not defined; #ifndef is the negative of
+#ifdef. This directive is often used to define a constant if it is not already defined. Here’s an
+example:
+/* arrays.h */
+#ifndef SIZE
+#define SIZE 100
+#endif
 {: id="20201028144914-nfhwzo0"}
