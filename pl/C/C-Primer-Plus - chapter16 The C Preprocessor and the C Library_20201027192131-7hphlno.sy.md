@@ -131,10 +131,8 @@ The #undef directive “undefines” a given #define. That is, suppose you have 
 {: id="20201028111735-x3kyghs"}
 
 Then the directive
-{: id="20201028111902-jomdpr1"}
-
 `#undef LIMIT`
-{: id="20201028111916-cbs90l6"}
+{: id="20201028111902-jomdpr1"}
 
 removes that definition. Now, if you like, you can redefine LIMIT so that it has a new value.
 Even if LIMIT is not defined in the first place, it is still valid to undefine it. If you want to use a
