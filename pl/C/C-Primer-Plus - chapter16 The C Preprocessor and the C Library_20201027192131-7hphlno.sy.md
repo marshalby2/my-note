@@ -198,3 +198,8 @@ int main() {
 }
 ```
 {: id="20201028143718-avshwer"}
+
+##### The #ifndef Directive
+{: id="20201028144912-21hrt84"}
+
+{: id="20201028144914-nfhwzo0"}
