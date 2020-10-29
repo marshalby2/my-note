@@ -9,6 +9,8 @@
 
 {: id="20201029110612-ym0dthc"}
 
-A second advantage of static factory methods is that, unlike constructors,
+##### 1.2 A second advantage of static factory methods is that, unlike constructors,
+{: id="20201029110617-zqx34cj"}
+
 they are not required to create a new object each time they’re invoked
 {: id="20201029110419-wu4s4cj"}
