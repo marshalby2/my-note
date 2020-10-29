@@ -4,11 +4,10 @@
 ### 1. Consider static factory methods instead of constructors
 {: id="20201029110244-fm3fba9"}
 
-##### 1.1 One advantage of static factory methods is that, unlike constructors, they
+##### 1.1 One advantage of static factory methods is that, unlike constructors, theyhave names.
 {: id="20201029110604-72t5n7g"}
 
-have names.
-{: id="20201029110317-ln9gmy4"}
+{: id="20201029110612-ym0dthc"}
 
 A second advantage of static factory methods is that, unlike constructors,
 they are not required to create a new object each time they’re invoked
