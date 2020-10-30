@@ -225,6 +225,7 @@ from the highest to the lowest level in the system hierarchy
 ##### Thread-Level Concurrency
 {: id="20201030151632-1dsmx7x"}
 
+Hyperthreading, sometimes called simultaneous multi-threading, is a technique that allows a single CPU to execute multiple flows of control.
 {: id="20201030151643-ksg5rnp"}
 
 ### 1.9.3 The Importance of Abstractions in Computer Systems
