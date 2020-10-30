@@ -233,6 +233,13 @@ Hyperthreading, sometimes called simultaneous multi-threading, is a technique th
 ##### Instruction-Level Parallelism
 {: id="20201030153800-zu4qnav"}
 
+{: id="20201030153910-34n498j"}
+
+##### Single-Instruction, Multiple-Data (SIMD) Parallelism
+{: id="20201030153910-zqjhxe5"}
+
+{: id="20201030153913-gp80o6u"}
+
 {: id="20201030153803-18w9c47"}
 
 ### 1.9.3 The Importance of Abstractions in Computer Systems
