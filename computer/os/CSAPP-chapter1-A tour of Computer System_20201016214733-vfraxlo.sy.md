@@ -203,8 +203,6 @@ over a network.
 ![1.14.png](assets/20201021100405-kub3j8t-1.14.png)
 {: id="20201021100326-2ekkmob"}
 
-{: id="20201021103328-e1cw6vq"}
-
 # 1.9 Important Themes
 {: id="20201021103329-67yd622"}
 
@@ -213,6 +211,8 @@ over a network.
 
 ### 1.9.2 Concurrency and Parallelism
 {: id="20201021103344-m11wc1o"}
+
+{: id="20201030150239-dshp1te"}
 
 ### 1.9.3 The Importance of Abstractions in Computer Systems
 {: id="20201021103401-8xg8n1k"}
@@ -229,4 +229,4 @@ we add a new one: the virtual machine, providing an abstraction of the entire
 computer, including the operating system, the processor, and the programs.
 {: id="20201021104732-qdrwho6"}
 
-{: id="20201021104815-55kapxh"}
+{: id="20201030150237-gelvb2r"}
