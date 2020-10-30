@@ -232,6 +232,7 @@ from the highest to the lowest level in the system hierarchy
 
 {: id="20201030155542-ahui7gh"}
 
+![1.17.png](assets/20201030155548-f4jhmgu-1.17.png)
 {: id="20201030155542-h7928x1"}
 
 Hyperthreading, sometimes called simultaneous multi-threading, is a technique that allows a single CPU to execute multiple flows of control.
