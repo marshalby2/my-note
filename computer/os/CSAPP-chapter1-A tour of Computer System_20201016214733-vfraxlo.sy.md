@@ -139,8 +139,7 @@ each in turn.
 ### 1.7.1 Processes
 {: id="20201020201554-ifa6ys1"}
 
-A process is the operating system’s abstraction for a running program. Multiple processes can run concurrently on the same system, and each process appears
-to have exclusive use of the hardware.
+A process is the operating system’s abstraction for a running program. Multiple processes can run concurrently on the same system, and each process appears to have exclusive use of the hardware.
 {: id="20201020201629-lsi5lk0"}
 
 The operating system keeps track of all the state information that the process
