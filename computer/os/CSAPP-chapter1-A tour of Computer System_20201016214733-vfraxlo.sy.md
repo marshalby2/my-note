@@ -215,7 +215,7 @@ over a network.
 Throughout the history of digital computers, two demands have been constant
 forces in driving improvements: **we want them to do more, and we want them to
 run faster.** Both of these factors improve when the processor does more things at
-once. We use the term concurrency to refer to the general concept of a system with
+once. We use the term **concurrency** to refer to the general concept of a system with
 multiple, simultaneous activities, and the term parallelism to refer to the use of
 concurrency to make a system run faster. Parallelism can be exploited at multiple
 levels of abstraction in a computer system. We highlight three levels here, working
