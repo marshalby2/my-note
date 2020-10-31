@@ -12,5 +12,7 @@ to remain thread-safe
 # Atomicity
 {: id="20201031143749-ne4dmyn"}
 
-#
+# Locking
 {: id="20201031143804-1fmj4l0"}
+
+{: id="20201031143810-wtze10z"}
