@@ -21,4 +21,8 @@ to remain thread-safe
 Java provides a built-in locking mechanism for enforcing atomicity: the synchronized block
 {: id="20201031143831-umdvrqi"}
 
+A synchronized block has two parts: a reference to an object that will serve as the lock, and a
+block of code to be guarded by that lock
+{: id="20201031143940-uqdz1ib"}
+
 {: id="20201031143810-wtze10z"}
