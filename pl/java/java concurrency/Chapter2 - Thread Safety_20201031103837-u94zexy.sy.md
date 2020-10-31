@@ -6,3 +6,8 @@ To ensure thread safety, check-then-act operations (like lazy initialization) an
 We refer collectively to check-then-act and read-modify-write sequences as compound actions: sequences of operations that must be executed atomically in order
 to remain thread-safe
 {: id="20201031103935-8k29t97"}
+
+{: id="20201031143750-tovce9d"}
+
+#
+{: id="20201031143749-ne4dmyn"}
