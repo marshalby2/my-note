@@ -29,4 +29,9 @@ Every Java object can implicitly act as a lock for purposes of synchronization;
 these built-in locks are called intrinsic locks or monitor locks
 {: id="20201031144044-ofb1l1c"}
 
+### Reentrancy
+{: id="20201031144405-57zeujo"}
+
+{: id="20201031144408-h7qo404"}
+
 {: id="20201031143810-wtze10z"}
