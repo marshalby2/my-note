@@ -18,7 +18,7 @@ to remain thread-safe
 ### Intrinsic locks
 {: id="20201031143815-5slc6dh"}
 
-Java provides a built-in locking mechanism for enforcing atomicity: the synchronized block
+Java provides a built-in locking mechanism for enforcing atomicity: the synchronized block.
 {: id="20201031143831-umdvrqi"}
 
 A synchronized block has two parts: a reference to an object that will serve as the lock, and a
