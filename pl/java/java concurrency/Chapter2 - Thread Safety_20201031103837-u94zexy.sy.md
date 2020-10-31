@@ -26,7 +26,7 @@ block of code to be guarded by that lock.
 {: id="20201031143940-uqdz1ib"}
 
 Every Java object can implicitly act as a lock for purposes of synchronization;
-these built-in locks are called intrinsic locks or monitor locks
+these built-in locks are called intrinsic locks or monitor locks.
 {: id="20201031144044-ofb1l1c"}
 
 ### Reentrancy
