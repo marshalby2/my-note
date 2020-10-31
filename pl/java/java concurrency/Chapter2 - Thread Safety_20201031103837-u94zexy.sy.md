@@ -9,5 +9,8 @@ to remain thread-safe
 
 {: id="20201031143750-tovce9d"}
 
-# Atom
+# Atomicity
 {: id="20201031143749-ne4dmyn"}
+
+#
+{: id="20201031143804-1fmj4l0"}
