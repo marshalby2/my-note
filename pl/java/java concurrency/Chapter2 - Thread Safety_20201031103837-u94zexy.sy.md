@@ -1,3 +1,8 @@
+{: id="20201102092314-6neznny"}
+
+
+{: id="20201102092314-0nttpso"}
+
 Informally, an object’s state is its data, stored in state variables such as instance
 or static fields. An object’s state may include fields from other, dependent objects;
 a HashMap’s state is partially stored in the HashMap object itself, but also in many
