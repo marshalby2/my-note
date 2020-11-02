@@ -1,7 +1,7 @@
+Writing thread-safe
+code is, at its core, about managing access to state, and in particular to shared,
+mutable state.
 {: id="20201102092314-6neznny"}
-
-
-{: id="20201102092314-0nttpso"}
 
 Informally, an object’s state is its data, stored in state variables such as instance
 or static fields. An object’s state may include fields from other, dependent objects;
