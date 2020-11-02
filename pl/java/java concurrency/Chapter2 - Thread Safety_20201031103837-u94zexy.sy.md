@@ -14,8 +14,10 @@ We refer collectively to check-then-act and read-modify-write sequences as compo
 to remain thread-safe
 {: id="20201031103935-8k29t97"}
 
-# 
+# What is thread safety?
 {: id="20201102092123-yy0x5oa"}
+
+{: id="20201102093226-safxbj0"}
 
 # Atomicity
 {: id="20201031143749-ne4dmyn"}
