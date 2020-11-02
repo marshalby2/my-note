@@ -1,5 +1,8 @@
-We may talk about thread safety as if it were about code, but what we are really trying to do is
-protect data from uncontrolled concurrent access.
+Informally, an object’s state is its data, stored in state variables such as instance
+or static fields. An object’s state may include fields from other, dependent objects;
+a HashMap’s state is partially stored in the HashMap object itself, but also in many
+Map.Entry objects. An object’s state encompasses any data that can affect its
+externally visible behavior
 {: id="20201031103928-6madqs4"}
 
 To ensure thread safety, check-then-act operations (like lazy initialization) and read-modify-write operations (like increment) must always be atomic.
@@ -7,7 +10,7 @@ We refer collectively to check-then-act and read-modify-write sequences as compo
 to remain thread-safe
 {: id="20201031103935-8k29t97"}
 
-#
+# 
 {: id="20201102092123-yy0x5oa"}
 
 # Atomicity
