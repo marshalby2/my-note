@@ -1,5 +1,4 @@
-Writing thread-safe
-code is, at its core, about managing access to state, and in particular to shared,
+Writing thread-safe code is, at its core, about managing access to state, and in particular to shared,
 mutable state.
 {: id="20201102092314-6neznny"}
 
