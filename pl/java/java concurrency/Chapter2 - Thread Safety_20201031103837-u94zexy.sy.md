@@ -7,7 +7,8 @@ We refer collectively to check-then-act and read-modify-write sequences as compo
 to remain thread-safe
 {: id="20201031103935-8k29t97"}
 
-{: id="20201031143750-tovce9d"}
+#
+{: id="20201102092123-yy0x5oa"}
 
 # Atomicity
 {: id="20201031143749-ne4dmyn"}
@@ -32,13 +33,7 @@ these built-in locks are called intrinsic locks or monitor locks.
 ### Reentrancy
 {: id="20201031144405-57zeujo"}
 
-{: id="20201031145157-jkq9jgt"}
-
 # Guarding state with locks
 {: id="20201031145157-kt908xv"}
 
-{: id="20201031145159-5xlcbo9"}
-
-{: id="20201031144408-h7qo404"}
-
-{: id="20201031143810-wtze10z"}
+{: id="20201102082517-0ey59f0"}
