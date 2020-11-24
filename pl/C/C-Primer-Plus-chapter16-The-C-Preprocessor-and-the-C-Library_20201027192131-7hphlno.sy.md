@@ -209,7 +209,6 @@ int main() {
 }
 ```
 
-
 ### Generic Selection (C11)
 
 In programming, the term generic programming indicates code that is not specific to a particular type but which, once a type is specified, can be translated into code for that type

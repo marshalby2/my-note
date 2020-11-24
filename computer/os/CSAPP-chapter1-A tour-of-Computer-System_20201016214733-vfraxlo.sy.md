@@ -171,22 +171,15 @@ from the highest to the lowest level in the system hierarchy
 
 ##### Thread-Level Concurrency
 
-
 ![1.6.png](assets/20201030155538-7326bi0-1.6.png)
-
 
 ![1.17.png](assets/20201030155548-f4jhmgu-1.17.png)
 
 Hyperthreading, sometimes called simultaneous multi-threading, is a technique that allows a single CPU to execute multiple flows of control.
 
-
 ##### Instruction-Level Parallelism
 
-
 ##### Single-Instruction, Multiple-Data (SIMD) Parallelism
-
-
-{: id="20201030153803-18w9c47"}
 
 ### 1.9.3 The Importance of Abstractions in Computer Systems
 
