@@ -140,7 +140,6 @@ int main() {
 }
 ```
 
-
 # Telling Functions About Structures
 
 modern implementations give you a choice between passing structures as arguments and
@@ -173,7 +172,6 @@ int area(int l, int w) {
     return l * w;
 }
 ```
-
 
 ### Using the Structure Address
 

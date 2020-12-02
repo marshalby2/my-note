@@ -13,7 +13,6 @@ to remain thread-safe
 
 # What is thread safety?
 
-
 # Atomicity
 
 # Locking

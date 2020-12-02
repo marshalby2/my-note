@@ -12,7 +12,6 @@
 
 打开招聘网站，查看招聘 Java 开发岗位的要求，95% 以上都要求掌握 Spring Cloud，从这可以看出，Spring Cloud 已经成为 Java 程序员必须要掌握的知识点，如果不会 Spring Cloud，很难找到好的工作。
 
-
 # 什么是 Spring Cloud
 
 Spring Cloud 是一个开发分布式系统的工具集，主要包括配置管理、服务注册与发现、控制总线、负载均衡、断路器、智能路由等。它的运用场景模型，如下图所示：
@@ -23,15 +22,11 @@ Spring Cloud 是一个开发分布式系统的工具集，主要包括配置管�
 
 Spring cloud 是基于 Spring Boot 来进行开发的，一个 Spring Cloud 项目是由多个 Spring Boot 项目组成的。所以要学习 Spring Cloud 的前提是要会使用 Spring Boot。
 
-
 # Spring Cloud 有什么用
 
 # 什么是微服务
 
 # 什么是分布式
-
-
-{: id="20201013094020-pvxeb36"}
 
 # Spring Cloud 学习资源
 
