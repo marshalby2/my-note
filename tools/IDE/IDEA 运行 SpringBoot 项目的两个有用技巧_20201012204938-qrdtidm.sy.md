@@ -10,14 +10,14 @@
 
 ![springbootdemo.png](https://b3logfile.com/file/2020/10/springbootdemo-76ed42b2.png)
 
-创建完成后，在配置文件`application.yml`中增加如下配置
+创建完成后，在配置文件 `application.yml` 中增加如下配置
 
 ```
 server:
   port: 8080
 ```
 
-并且在`pom.xml`中引入`web`依赖
+并且在 `pom.xml` 中引入 `web` 依赖
 
 ```
 <dependency>
@@ -50,23 +50,23 @@ public class SpringbootDemoApplication {
 
 # 小技巧一：以不同的端口号同时运行同一个 SpringBoot 项目
 
-我们已经创建好`springboot-demo`这个项目了，下面开始演示如何以多个端口号同时运行它
+我们已经创建好 `springboot-demo` 这个项目了，下面开始演示如何以多个端口号同时运行它
 
 ### 第一步
 
-点击右上方的`Edit Configurations`按钮
+点击右上方的 `Edit Configurations` 按钮
 
 ![clickedit.png](https://b3logfile.com/file/2020/10/clickedit-9381db60.png)
 
 ### 第二步
 
-我们会进入下面这个界面，点击右上角的`Allow parallel run`前面的框框，然后再点击左侧的复制按钮
+我们会进入下面这个界面，点击右上角的 `Allow parallel run` 前面的框框，然后再点击左侧的复制按钮
 
 ![allowparallelrunandcopy.png](https://b3logfile.com/file/2020/10/allowparallelrunandcopy-915e2fa4.png)
 
 ### 第三步
 
-经过第二步我们会进入下面这个界面，将 name 改为 SpringbootDemoApplication2，然后在 VM options 这里填入`-Dserver.port=8081`
+经过第二步我们会进入下面这个界面，将 name 改为 SpringbootDemoApplication2，然后在 VM options 这里填入 `-Dserver.port=8081`
 
 ![application2.png](https://b3logfile.com/file/2020/10/application2-f8e1b310.png)
 
@@ -80,13 +80,13 @@ public class SpringbootDemoApplication {
 
 运行成功后，打开浏览器
 
-访问 [http://localhost:8080/hello](http://localhost:8080/hello)，返回`hello, i am from port: 8080`访问 [http://localhost:8081/hello](http://localhost:8081/hello)，返回`hello, i am from port: 8081`访问 [http://localhost:8082/hello](http://localhost:8082/hello)，返回`hello, i am from port: 8082`
+访问 [http://localhost:8080/hello](http://localhost:8080/hello)，返回 `hello, i am from port: 8080` 访问 [http://localhost:8081/hello](http://localhost:8081/hello)，返回 `hello, i am from port: 8081` 访问 [http://localhost:8082/hello](http://localhost:8082/hello)，返回 `hello, i am from port: 8082`
 
 至此大功告成！
 
 # 小技巧二：将多个 SpringBoot 项目运行在 services 管理界面
 
-我们接着上面的步骤来，刚才我们创建了一个名为`springboot-demo`的项目，并且分别以 8080,8081,8083 这三个端口号运行起来了，Debug 界面如下所示：
+我们接着上面的步骤来，刚才我们创建了一个名为 `springboot-demo` 的项目，并且分别以 8080,8081,8083 这三个端口号运行起来了，Debug 界面如下所示：
 
 ![debugwindows.png](https://b3logfile.com/file/2020/10/debugwindows-40baeb5d.png)
 
@@ -94,7 +94,7 @@ public class SpringbootDemoApplication {
 
 ### 第一步
 
-按住`Alt + 8`快捷键打开 services 界面
+按住 `Alt + 8` 快捷键打开 services 界面
 
 ![servicewindows.png](https://b3logfile.com/file/2020/10/servicewindows-16f48e95.png)
 

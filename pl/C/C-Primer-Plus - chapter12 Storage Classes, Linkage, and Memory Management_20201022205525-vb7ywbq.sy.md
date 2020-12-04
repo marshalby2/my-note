@@ -490,14 +490,14 @@ Pointers are more complicated because you have to distinguish between making the
 const float * pf; /* pf points to a constant float value */
 ```
 
-`pf`points to a value that must remain constant. The value of pf itself can
+`pf` points to a value that must remain constant. The value of pf itself can
 be changed
 
 ```c
 float * const pt; /* pt is a const pointer */
 ```
 
-that the pointer`pt` itself cannot have its value changed. It must always point to the same
+that the pointer `pt` itself cannot have its value changed. It must always point to the same
 address, but the pointed-to value can change
 
 ```c

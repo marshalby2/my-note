@@ -2,17 +2,17 @@
 
 # 前言
 
-一开始我只是想学一下`Docker`，在了解了`Docker`的基础知识后，发现`Docker`安装软件很方便，于是就通过`Docker`安装了`MongoDB`，顺带着把`MongoDB`也学习了，最后想着，既然`Docker`和`MongoDB`都学习了，为什么不顺带着将`MongoDB` 和 `SpringBoot`整合一下，再通过`Docker`部署呢？于是乎就有了这篇笔记，记录一下学习的过程。
+一开始我只是想学一下 `Docker`，在了解了 `Docker` 的基础知识后，发现 `Docker` 安装软件很方便，于是就通过 `Docker` 安装了 `MongoDB`，顺带着把 `MongoDB` 也学习了，最后想着，既然 `Docker` 和 `MongoDB` 都学习了，为什么不顺带着将 `MongoDB` 和 `SpringBoot` 整合一下，再通过 `Docker` 部署呢？于是乎就有了这篇笔记，记录一下学习的过程。
 
 # Docker 学习
 
-`Docker`的学习主要参考[Docker 官网](https://docs.docker.com/get-started/overview/) 和 [菜鸟教程-Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
+`Docker` 的学习主要参考 [Docker 官网](https://docs.docker.com/get-started/overview/) 和 [菜鸟教程-Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
 
-`Docker`的安装以及 一些基础的知识，包括 **镜像** 和 **容器** 等概念，看一下[Docker 官网](https://docs.docker.com/get-started/overview/)就可以 。需要熟练使用 **镜像** 和 **容器**  的操作指令，包括拉取（删除、打包。 镜像，运行（停止、删除）容器等。这些指令和`git`和`Linux`的指令很像的，很容易掌握。总结如下：
+`Docker` 的安装以及 一些基础的知识，包括 **镜像** 和 **容器** 等概念，看一下 [Docker 官网](https://docs.docker.com/get-started/overview/)就可以 。需要熟练使用 **镜像** 和 **容器**  的操作指令，包括拉取（删除、打包。 镜像，运行（停止、删除）容器等。这些指令和 `git` 和 `Linux` 的指令很像的，很容易掌握。总结如下：
 
 ### 镜像操作指令
 
-以`Docker`官网提供的`hello-world`镜像为例
+以 `Docker` 官网提供的 `hello-world` 镜像为例
 
 ##### 1. 查找镜像
 
@@ -38,7 +38,7 @@
 
 ### 容器操作指令
 
-容器的操作，就结合安装`MongoDB`来一起学习，`Docker`安装软件就是将该软件对应的`Docker`镜像拉取下来，然后运行成为一个容器的过程。常用的开发软件都有对应的`Docker`镜像的，我们可以在[DockerHub](https://hub.docker.com/search?type=image)这个网站去找我们需要的软件镜像。比如我们搜索`mongodb`，如下图所示：
+容器的操作，就结合安装 `MongoDB` 来一起学习，`Docker` 安装软件就是将该软件对应的 `Docker` 镜像拉取下来，然后运行成为一个容器的过程。常用的开发软件都有对应的 `Docker` 镜像的，我们可以在 [DockerHub](https://hub.docker.com/search?type=image) 这个网站去找我们需要的软件镜像。比如我们搜索 `mongodb`，如下图所示：
 
 ![mongodbiamge.png](https://b3logfile.com/file/2020/09/mongodbiamge-7a82ee62.png)
 
@@ -46,7 +46,7 @@
 
 ![mongofbdownload.png](https://b3logfile.com/file/2020/09/mongofbdownload-0ff13f29.png)
 
-##### 1. 拉取`MongoDB`镜像
+##### 1. 拉取 `MongoDB` 镜像
 
 指令： `docker pull mongo`
 
@@ -61,9 +61,9 @@
 - -d : 后台运行
 - --name : mongo 指定容器的名字
 - -p : 指定端口号
-- --auth : 指的是`MongoDB`数据库运行后，需要密码才能访问容器服务
+- --auth : 指的是 `MongoDB` 数据库运行后，需要密码才能访问容器服务
 
-其实使用`Docker`安装`MongoDB`这两步就完成了。
+其实使用 `Docker` 安装 `MongoDB` 这两步就完成了。
 
 ##### 3. 查看容器信息
 
@@ -91,7 +91,7 @@
 
 # MongoDB 学习
 
-在前面我们已经通过`Dokcer`安装了`MongoDB`，现在我们通过`docker exec -it mongo mongo `指令进入`MongoDB`容器
+在前面我们已经通过 `Dokcer` 安装了 `MongoDB`，现在我们通过 `docker exec -it mongo mongo ` 指令进入 `MongoDB` 容器
 
 ![mogo1.png](https://b3logfile.com/file/2020/09/mogo1-b7ff4d9f.png)
 
@@ -114,7 +114,7 @@ db.createUser({
 });
 ```
 
-然后我们切换到`test`数据库，创建一个`test`用户，我们所有的学习都基于这个`test`数据库来进行，与上面类似，执行下面两个指令：
+然后我们切换到 `test` 数据库，创建一个 `test` 用户，我们所有的学习都基于这个 `test` 数据库来进行，与上面类似，执行下面两个指令：
 
 ```
 # 1. 切换到test，说明一下，use指令切换数据库时，如果数据库不存在，会自动创建的
@@ -134,13 +134,13 @@ db.createUser({
 执行完这条语句后，会提示我们输入该用户的密码，输入完成，用户就创建成功了。
 ```
 
-关于`MongoDB`其他知识，参考 [MongoDB 官网](https://docs.mongodb.com/manual/)
+关于 `MongoDB` 其他知识，参考 [MongoDB 官网](https://docs.mongodb.com/manual/)
 
-# 创建 SpringBoot 项目，整合`MongoDB` 和 `Docker`
+# 创建 SpringBoot 项目，整合 `MongoDB` 和 `Docker`
 
-我们通过`SpringBoot`项目来整合`MongoDB`和`Docker`，然后通过`Swagger` 来测试
+我们通过 `SpringBoot` 项目来整合 `MongoDB` 和 `Docker`，然后通过 `Swagger` 来测试
 
-##### 1. `MongoDB`和`Swagger`依赖配置
+##### 1. `MongoDB` 和 `Swagger` 依赖配置
 
 ```
 <!--   mongodb     -->
@@ -172,7 +172,7 @@ db.createUser({
         </dependency>
 ```
 
-##### 2. `Docker`插件配置
+##### 2. `Docker` 插件配置
 
 ```
 <properties>
@@ -204,7 +204,7 @@ db.createUser({
         </plugin>
 ```
 
-##### 3. `MongoDB`连接配置
+##### 3. `MongoDB` 连接配置
 
 ```
 spring:
@@ -231,7 +231,7 @@ public class Book {
 }
 ```
 
-操作`MongoDB`数据库主要通过注入`MongoTemplate`来实现
+操作 `MongoDB` 数据库主要通过注入 `MongoTemplate` 来实现
 
 ```
 @Service
@@ -356,9 +356,9 @@ public class BookController {
 }
 ```
 
-###### 5. 编写`Dockfile`文件
+###### 5. 编写 `Dockfile` 文件
 
-打包之前需要先编写一个`Dcokerfile`文件，这个文件我放在`/src/main/docker/目录下`，`Dockerfile`的具体配置，可以看看这个 [Docker Dockerfile](https://www.runoob.com/docker/docker-dockerfile.html)
+打包之前需要先编写一个 `Dcokerfile` 文件，这个文件我放在 `/src/main/docker/目录下`，`Dockerfile` 的具体配置，可以看看这个 [Docker Dockerfile](https://www.runoob.com/docker/docker-dockerfile.html)
 
 ```
 FROM openjdk:8-jdk-alpine
@@ -367,9 +367,9 @@ ADD springboot-mongodb-docker-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 ```
 
-##### 6. 将项目打包为`Docker`镜像
+##### 6. 将项目打包为 `Docker` 镜像
 
-进入项目所在目录，执行`mvn package docker:build`命令，如果没有报错，就说明打包成功，此时执行`docker images`指令查看镜像，第一个就是我们打包的镜像
+进入项目所在目录，执行 `mvn package docker:build` 命令，如果没有报错，就说明打包成功，此时执行 `docker images` 指令查看镜像，第一个就是我们打包的镜像
 
 ![spingbootdockerimage.png](https://b3logfile.com/file/2020/09/spingbootdockerimage-780f6fe0.png)
 
@@ -380,15 +380,15 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 参数说明：
 
 - -d : 后台运行
-- --net=host: 使用 host 模式启动容器，此时容器和宿主机共用一个 Network Namespace，这样我们的容器才可以访问其他运行着的软件，比如`MongoDB`
+- --net=host: 使用 host 模式启动容器，此时容器和宿主机共用一个 Network Namespace，这样我们的容器才可以访问其他运行着的软件，比如 `MongoDB`
 - -p : 指定端口号
 - --name: 指定我们容器的名字
 
-如果我们想查看项目的日志，可以通过指令`docker logs springboot-mongodb-docker > logs.txt`来将日志写到`logs.txt`文件中
+如果我们想查看项目的日志，可以通过指令 `docker logs springboot-mongodb-docker > logs.txt` 来将日志写到 `logs.txt` 文件中
 
-##### 8. 通过`Swagger`测试
+##### 8. 通过 `Swagger` 测试
 
-在浏览器输入[http://localhost:8080/swagger-ui.html#/](http://localhost:8080/swagger-ui.html#/)
+在浏览器输入 [http://localhost:8080/swagger-ui.html#/](http://localhost:8080/swagger-ui.html#/)
 
 测试保存接口
 
@@ -406,6 +406,6 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
 # 总结
 
-通过`Docker`安装软件，是非常便利的，只需要学会`docker pull ` 和 `docker run`两个指令就可以了。同时，`docker`和 `SpringBoot`的整合，使我们部署维护项目也变得很简单。
+通过 `Docker` 安装软件，是非常便利的，只需要学会 `docker pull ` 和 `docker run` 两个指令就可以了。同时，`docker` 和 `SpringBoot` 的整合，使我们部署维护项目也变得很简单。
 
 完整代码 [springboot-mongodb-docker](https://github.com/marshalby2/springboot-mongodb-docker)
