@@ -55,14 +55,26 @@ Spring Cloud 是一个开发分布式系统的工具集，主要包括配置管�
 Spring cloud 是基于 Spring Boot 来进行开发的，一个 Spring Cloud 项目是由多个 Spring Boot 项目组成的。所以要学习 Spring Cloud 的前提是要会使用 Spring Boot。
 {: id="20210104083616-vutxfck"}
 
-# 什么是微服务
+# 集群、分布式、微服务、SOA
 {: id="20210104150933-0q140sx"}
 
-# 什么是分布式
-{: id="20210104083616-ri3b6ew"}
+这部分内容，可以参考[分布式、集群、微服务、SOA 之间的区别](https://blog.csdn.net/heatdeath/article/details/79038795)
+{: id="20210104163719-i8wp7wo"}
+
+##### 集群
+{: id="20210104163535-i0fjagd"}
+
+##### 分布式
+{: id="20210104163545-vmwo2f9"}
+
+##### 微服务
+{: id="20210104163554-wy9o4fd"}
+
+##### SOA
+{: id="20210104163558-el6uymp"}
 
 # Spring Cloud 学习资源
-{: id="20210104083616-7h0kum7"}
+{: id="20210104083616-ri3b6ew"}
 
 网上学习 Spring Cloud 的资源很多，我主要是参考的有：
 {: id="20210104083616-ids42w7"}
