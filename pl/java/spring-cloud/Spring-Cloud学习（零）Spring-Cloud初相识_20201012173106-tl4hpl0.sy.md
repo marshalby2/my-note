@@ -65,57 +65,15 @@ Spring cloud 是基于 Spring Boot 来进行开发的，一个 Spring Cloud 项�
 {: id="20210104083616-7h0kum7"}
 
 网上学习 Spring Cloud 的资源很多，我主要是参考的有：
-====================================================
 {: id="20210104083616-ids42w7"}
-
-网上学习 Spring Cloud 的资源很多，我主要是参考的有：
-{: id="20210104083616-ujm2ocn"}
-
->>>>>>> ba9f78b2d7c3075d2c8bad751a27c9701c42d547:pl/java/spring-cloud/Spring-Cloud 学习（零）Spring-Cloud 初相识_20201012173106-tl4hpl0.sy.md
->>>>>>> {: id="20210104083616-b797rgn"}
->>>>>>>
->>>>>> {: id="20210104083616-4kv8lgl"}
->>>>>>
->>>>> {: id="20210104083616-1hmystx"}
->>>>>
->>>> {: id="20210104083616-1376e2m"}
->>>>
->>> {: id="20210104083616-t955c51"}
->>>
->> {: id="20210104083616-kjvgck0"}
->>
-> {: id="20210104083616-btonzwa"}
-{: id="20210104083616-0x3xdb1"}
 
 1. {: id="20210104083616-pl3ddin"}[spring-cloud 官网](https://spring.io/projects/spring-cloud)
 2. {: id="20210104083616-s848bjp"}[纯洁的微笑 - Spring Cloud 系列文章](http://www.ityouknow.com/spring-cloud.html)
 3. {: id="20210104083616-pmpk99k"}[方志朋 - Spring Cloud 系列文章](https://www.fangzhipeng.com/spring-cloud.html)
-   <<<<<<< HEAD:pl/java/spring-cloud/Spring Cloud 学习（零）Spring Cloud 初相识_20201012173106-tl4hpl0.sy.md
 4. {: id="20210104083616-3hn8koq"}[猿天地 - Spring Cloud 入门到实战系列教程](http://cxytiandi.com/blog/detail/17470)
+5. {: id="20210104151054-f4dzxht"}更多的资源可以参考 [Sring Cloud 中文索引](http://springcloud.fun/)
 {: id="20210104083616-htgqbos"}
 
-更多的资源可以参考 [Sring Cloud 中文索引](http://springcloud.fun/)
-=======================================
-{: id="20210104083616-zz0vs8g"}
+{: id="20210104151103-hzavoxw"}
 
-4. {: id="20210104083616-0drl1vd"}[猿天地 - Spring Cloud 入门到实战系列教程](http://cxytiandi.com/blog/detail/17470)
-{: id="20210104083616-9ce4opn"}
-
-更多的资源可以参考 [Sring Cloud 中文索引](http://springcloud.fun/)
-{: id="20210104083616-hiyuqv0"}
-
->>>>>>> ba9f78b2d7c3075d2c8bad751a27c9701c42d547:pl/java/spring-cloud/Spring-Cloud 学习（零）Spring-Cloud 初相识_20201012173106-tl4hpl0.sy.md
->>>>>>> {: id="20210104083616-hhnqr5j"}
->>>>>>>
->>>>>> {: id="20210104083616-vxmxey9"}
->>>>>>
->>>>> {: id="20210104083616-6z1ndt3"}
->>>>>
->>>> {: id="20210104083616-lqxyqic"}
->>>>
->>> {: id="20210104083616-r7yb6z0"}
->>>
->> {: id="20210104083616-h4qd6hl"}
->>
-> {: id="20210104083616-q9l1en3"}
-{: id="20210104083616-v30jww6"}
+{: id="20210104151057-f6x1ppc"}
