@@ -74,6 +74,4 @@ Spring cloud 是基于 Spring Boot 来进行开发的，一个 Spring Cloud 项�
 5. {: id="20210104151054-f4dzxht"}更多的资源可以参考 [Sring Cloud 中文索引](http://springcloud.fun/)
 {: id="20210104083616-htgqbos"}
 
-{: id="20210104151103-hzavoxw"}
-
 {: id="20210104151057-f6x1ppc"}
