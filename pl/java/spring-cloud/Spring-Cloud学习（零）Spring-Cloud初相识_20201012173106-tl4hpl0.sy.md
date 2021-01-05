@@ -61,7 +61,8 @@ Spring Cloud 是一个开发分布式系统（参考 [分布式、集群、微�
 {: id="20210105094945-tmijbpx"}
 
 - {: id="20210105095011-y1aa5ag"}eureka: 服务注册中心，一般在分布式系统中，都会有很多个服务，我们需要一个服务注册中心来管理这些服务。
-- {: id="20210105095137-cxrrzma"}ribbon: 负载均衡客户端，在微服务架构中，业务都会被拆分成一个独立的服务，服务与服务的通讯是基于 http restful 的。Spring cloud 有两种服务调用方式，一种是 ribbon+restTemplate，另一种是 feign（默认集成了 ribbon）
+- {: id="20210105095137-cxrrzma"}ribbon: 负载均衡客户端，在微服务架构中，业务都会被拆分成一个独立的服务，服务与服务的通讯是基于 http restful 的。Spring cloud 有两种服务调用方式，一种是 ribbon+restTemplate，另一种是 feign（默认集成了 ribbon）。
+- {: id="20210105100158-6h486a8"}feign: feign 是一个声明式的伪 http 客户端，它使得写 http 客户端变得更简单。使用 feign，只需要创建一个接口并注解。它具有可插拔的注解特性，可使用 feign 注解和 JAX-RS 注解。feign 支持可插拔的编码器和解码器。feign 默认集成了 ribbon，并和 eureka 结合，默认实现了负载均衡的效果。
 {: id="20210105095006-f02hox3"}
 
 {: id="20210104083616-mlqab2a"}
