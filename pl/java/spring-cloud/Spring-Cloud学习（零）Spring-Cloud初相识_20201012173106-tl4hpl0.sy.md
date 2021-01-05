@@ -40,26 +40,31 @@
 打开招聘网站，查看招聘 Java 开发岗位的要求，95% 以上都要求掌握 Spring Cloud，从这可以看出，Spring Cloud 已经成为 Java 程序员必须要掌握的知识点，如果不会 Spring Cloud，很难找到好的工作。
 {: id="20210104083616-utimh8q"}
 
+Spring Cloud 和 Spring Boot 是什么关系
+{: id="20210105094809-nz4eg1v"}
+
+Spring cloud 是基于 Spring Boot 来进行开发的，一个 Spring Cloud 项目是由多个 Spring Boot 项目组成的。所以要学习 Spring Cloud 的前提是要会使用 Spring Boot。
+{: id="20210105094809-ublhv8e"}
+
 # 什么是 Spring Cloud
 {: id="20210104083616-i3n9b53"}
 
-Spring Cloud 是一个开发分布式系统的工具集，主要包括配置管理、服务注册与发现、控制总线、负载均衡、断路器、智能路由等。它的运用场景模型，如下图所示：
+Spring Cloud 是一个开发分布式系统（参考 [分布式、集群、微服务、SOA 之间的区别](https://blog.csdn.net/heatdeath/article/details/79038795)）的工具集，主要包括配置管理、服务注册与发现、控制总线、负载均衡、断路器、智能路由等。它的运用场景模型，如下图所示：
 {: id="20210104083616-ypfrhpz"}
 
 ![Microservices diagram](https://spring.io/images/diagram-microservices-88e01c7d34c688cb49556435c130d352.svg)
 {: id="20210104083616-ski0ppj"}
 
-# Spring Cloud 和 Spring Boot 是什么关系
+{: id="20210105094946-sx0lz1m"}
+
+先简单介绍一下 Spring Cloud 的各个组件：
+{: id="20210105094945-tmijbpx"}
+
+- {: id="20210105095011-y1aa5ag"}eureka: 服务注册中心，一般在分布式系统中，都会有很多个服务，我们需要一个服务注册中心来管理这些服务。
+- {: id="20210105095137-cxrrzma"}ribbon: 负载均衡客户端，在微服务架构中，业务都会被拆分成一个独立的服务，服务与服务的通讯是基于 http restful 的。Spring cloud 有两种服务调用方式，一种是 ribbon+restTemplate，另一种是 feign（默认集成了 ribbon）
+{: id="20210105095006-f02hox3"}
+
 {: id="20210104083616-mlqab2a"}
-
-Spring cloud 是基于 Spring Boot 来进行开发的，一个 Spring Cloud 项目是由多个 Spring Boot 项目组成的。所以要学习 Spring Cloud 的前提是要会使用 Spring Boot。
-{: id="20210104083616-vutxfck"}
-
-# 集群、分布式、微服务、SOA
-{: id="20210104150933-0q140sx"}
-
-这部分内容，可以参考[分布式、集群、微服务、SOA 之间的区别](https://blog.csdn.net/heatdeath/article/details/79038795)
-{: id="20210104163719-i8wp7wo"}
 
 # Spring Cloud 学习资源
 {: id="20210104083616-ri3b6ew"}
