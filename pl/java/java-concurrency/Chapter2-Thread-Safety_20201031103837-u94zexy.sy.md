@@ -15,6 +15,12 @@ about thread safety as if it were about code, but what we are really trying to d
 protect data from uncontrolled concurrent access.
 {: id="20210106160353-bj383n8"}
 
+Whenever more than one thread accesses a given state variable, and one of them might
+write to it, they all must coordinate their access to it using synchronization. **The primary
+mechanism for synchronization in Java is the synchronized keyword, which provides exclusive locking, but the term “synchronization” also includes the use of
+volatile variables, explicit locks, and atomic variables.**
+{: id="20210106161135-dsywqql"}
+
 To ensure thread safety, check-then-act operations (like lazy initialization) and read-modify-write operations (like increment) must always be atomic.
 We refer collectively to check-then-act and read-modify-write sequences as compound actions: sequences of operations that must be executed atomically in order
 to remain thread-safe.
